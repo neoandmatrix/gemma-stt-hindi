@@ -1,0 +1,18 @@
+{
+  "id": "YOUR_KAGGLE_USER/gemma-stt-hindi-ladder",
+  "title": "gemma-stt-hindi-ladder",
+  "code_file": "run_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-code"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-yodas-prep",
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-yodas-prep2"
+  ]
+}

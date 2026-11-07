@@ -1,0 +1,35 @@
+[{"stream_name":"stdout","time":0.654638994,"data":"[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code\n"}
+,{"stream_name":"stderr","time":18.488152524,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":18.488214974,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.48822275,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.488228283,"data":"datasets 4.8.5 requires huggingface-hub\u003c2.0,\u003e=0.25.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.488233129,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":18.488237684,"data":"gradio-client 2.6.1 requires huggingface-hub\u003c2.0,\u003e=0.19.3, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":33.93818402,"data":"[   0.6 min] torch 2.11.0+cu128, 2 GPU(s): ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stderr","time":86.776252037,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:03\u003c00:10,  3.51s/it]\rFetching 4 files:  50%|█████     | 2/4 [00:03\u003c00:03,  1.56s/it]\rFetching 4 files: 100%|██████████| 4/4 [00:03\u003c00:00,  1.07it/s]\n"}
+,{"stream_name":"stderr","time":99.187389725,"data":"\rFetching 15 files:   0%|          | 0/15 [00:00\u003c?, ?it/s]\rFetching 15 files:   7%|▋         | 1/15 [00:00\u003c00:08,  1.69it/s]\rFetching 15 files:  20%|██        | 3/15 [00:05\u003c00:22,  1.92s/it]\rFetching 15 files:  47%|████▋     | 7/15 [00:05\u003c00:05,  1.54it/s]\rFetching 15 files:  53%|█████▎    | 8/15 [00:05\u003c00:03,  1.80it/s]\rFetching 15 files:  67%|██████▋   | 10/15 [00:05\u003c00:01,  2.53it/s]\rFetching 15 files:  80%|████████  | 12/15 [00:06\u003c00:00,  3.37it/s]\rFetching 15 files:  87%|████████▋ | 13/15 [00:11\u003c00:02,  1.35s/it]\rFetching 15 files: 100%|██████████| 15/15 [00:11\u003c00:00,  1.26it/s]\n"}
+,{"stream_name":"stdout","time":99.187508301,"data":"[   1.6 min] data ready: 12 train shards\n"}
+,{"stream_name":"stdout","time":99.188156351,"data":"[   1.6 min] start h20_k0 on GPU 0\n"}
+,{"stream_name":"stdout","time":99.189103153,"data":"[   1.6 min] start h20_k2 on GPU 1\n"}
+,{"stream_name":"stdout","time":1854.514686935,"data":"[  30.9 min] h20_k0 exited with 0\n"}
+,{"stream_name":"stdout","time":2386.035012531,"data":"[  39.8 min] h20_k2 exited with 0\n"}
+,{"stream_name":"stdout","time":2386.041372755,"data":"[  39.8 min] SUMMARY h20_k0: best valid CER 0.075 WER 0.266 | lahaja CER 0.164 | 98.946 h seen\n"}
+,{"stream_name":"stdout","time":2386.041422775,"data":"[  39.8 min] SUMMARY h20_k2: best valid CER 0.070 WER 0.247 | lahaja CER 0.158 | 75.443 h seen\n"}
+,{"stream_name":"stdout","time":2386.042805145,"data":"[  39.8 min] start h50_k0 on GPU 0\n"}
+,{"stream_name":"stdout","time":2386.134053114,"data":"[  39.8 min] start h50_k2 on GPU 1\n"}
+,{"stream_name":"stdout","time":14465.541298809,"data":"[ 241.1 min] h50_k0 exited with -9\n"}
+,{"stream_name":"stdout","time":17311.585361713,"data":"[ 288.5 min] h50_k2 exited with 0\n"}
+,{"stream_name":"stdout","time":17311.606752495,"data":"[ 288.5 min] SUMMARY h20_k0: best valid CER 0.075 WER 0.266 | lahaja CER 0.164 | 98.946 h seen\n"}
+,{"stream_name":"stdout","time":17311.606838152,"data":"[ 288.5 min] SUMMARY h20_k2: best valid CER 0.070 WER 0.247 | lahaja CER 0.158 | 75.443 h seen\n"}
+,{"stream_name":"stdout","time":17311.606960337,"data":"[ 288.5 min] SUMMARY h50_k2: best valid CER 0.063 WER 0.222 | lahaja CER 0.163 | 143.059 h seen\n"}
+,{"stream_name":"stdout","time":17311.666903246,"data":"[ 288.5 min] SUMMARY h20_k0: best valid CER 0.075 WER 0.266 | lahaja CER 0.164 | 98.946 h seen\n"}
+,{"stream_name":"stdout","time":17311.666996016,"data":"[ 288.5 min] SUMMARY h20_k2: best valid CER 0.070 WER 0.247 | lahaja CER 0.158 | 75.443 h seen\n"}
+,{"stream_name":"stdout","time":17311.667099538,"data":"[ 288.5 min] SUMMARY h50_k2: best valid CER 0.063 WER 0.222 | lahaja CER 0.163 | 143.059 h seen\n"}
+,{"stream_name":"stdout","time":17311.6672421,"data":"[ 288.5 min] done\n"}
+,{"stream_name":"stderr","time":17314.592770861,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":17314.59280927,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":17314.869280314,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":17314.869308527,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":17316.128150768,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":17317.044403375,"data":"[NbConvertApp] Writing 303035 bytes to __results__.html\n"}
+]

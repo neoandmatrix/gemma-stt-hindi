@@ -1,0 +1,14 @@
+[project]
+name = "04-gemma-stt-hindi"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=2.3.0",
+    "jiwer>=4.0.0",
+    "numpy>=2.5.4",
+    "pyarrow>=26.0.0",
+    "safetensors>=0.8.0",
+    "soundfile>=0.14.0",
+    "torch>=2.14.1",
+    "transformers>=5.13",
+]

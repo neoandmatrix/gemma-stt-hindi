@@ -1,0 +1,8 @@
+{"step": 1000, "hours_seen": 12.583, "cer": 0.1268, "wer": 0.4203, "n_eval": 1000, "time": "08:01:30", "cer_valid": 0.1268, "wer_valid": 0.4203, "cer_lahaja": 0.2096, "wer_lahaja": 0.5927}
+{"step": 2000, "hours_seen": 25.14, "cer": 0.1055, "wer": 0.365, "n_eval": 1000, "time": "08:05:02", "cer_valid": 0.1055, "wer_valid": 0.365, "cer_lahaja": 0.1865, "wer_lahaja": 0.5487}
+{"step": 3000, "hours_seen": 37.716, "cer": 0.0973, "wer": 0.339, "n_eval": 1000, "time": "08:08:16", "cer_valid": 0.0973, "wer_valid": 0.339, "cer_lahaja": 0.1791, "wer_lahaja": 0.5311}
+{"step": 4000, "hours_seen": 50.28, "cer": 0.089, "wer": 0.3138, "n_eval": 1000, "time": "08:11:29", "cer_valid": 0.089, "wer_valid": 0.3138, "cer_lahaja": 0.1778, "wer_lahaja": 0.5312}
+{"step": 5000, "hours_seen": 62.865, "cer": 0.082, "wer": 0.2868, "n_eval": 1000, "time": "08:14:42", "cer_valid": 0.082, "wer_valid": 0.2868, "cer_lahaja": 0.1702, "wer_lahaja": 0.5176}
+{"step": 6000, "hours_seen": 75.443, "cer": 0.0768, "wer": 0.2714, "n_eval": 1000, "time": "08:17:54", "cer_valid": 0.0768, "wer_valid": 0.2714, "cer_lahaja": 0.1644, "wer_lahaja": 0.4979}
+{"step": 7000, "hours_seen": 88.002, "cer": 0.0768, "wer": 0.2716, "n_eval": 1000, "time": "08:21:07", "cer_valid": 0.0768, "wer_valid": 0.2716, "cer_lahaja": 0.167, "wer_lahaja": 0.5096}
+{"step": 7870, "hours_seen": 98.946, "cer": 0.0752, "wer": 0.2662, "n_eval": 1000, "time": "08:23:59", "cer_valid": 0.0752, "wer_valid": 0.2662, "cer_lahaja": 0.1641, "wer_lahaja": 0.4996}

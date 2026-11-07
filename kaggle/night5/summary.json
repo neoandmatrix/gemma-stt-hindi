@@ -1,0 +1,106 @@
+{
+  "hl_k2": {
+    "final": {
+      "step": 83209,
+      "hours_seen": 1069.812,
+      "cer": 0.0592,
+      "wer": 0.2192,
+      "n_eval": 1000,
+      "time": "06:04:13",
+      "cer_valid": 0.0592,
+      "wer_valid": 0.2192,
+      "cer_lahaja": 0.0876,
+      "wer_lahaja": 0.2667
+    },
+    "best": {
+      "step": 60000,
+      "hours_seen": 771.547,
+      "cer": 0.0572,
+      "wer": 0.21,
+      "n_eval": 1000,
+      "time": "04:30:15",
+      "cer_valid": 0.0572,
+      "wer_valid": 0.21,
+      "cer_lahaja": 0.094,
+      "wer_lahaja": 0.2845
+    }
+  },
+  "hl_kb_k2": {
+    "final": {
+      "step": 10301,
+      "hours_seen": 129.497,
+      "cer": 0.038,
+      "wer": 0.1343,
+      "n_eval": 1000,
+      "time": "06:51:18",
+      "cer_valid": 0.038,
+      "wer_valid": 0.1343,
+      "cer_lahaja": 0.0953,
+      "wer_lahaja": 0.3098
+    },
+    "best": {
+      "step": 8000,
+      "hours_seen": 100.571,
+      "cer": 0.0374,
+      "wer": 0.1336,
+      "n_eval": 1000,
+      "time": "06:41:56",
+      "cer_valid": 0.0374,
+      "wer_valid": 0.1336,
+      "cer_lahaja": 0.0963,
+      "wer_lahaja": 0.3141
+    }
+  },
+  "yc_k2": {
+    "final": {
+      "step": 80756,
+      "hours_seen": 1038.316,
+      "cer": 0.1204,
+      "wer": 0.2982,
+      "n_eval": 1000,
+      "time": "06:04:14",
+      "cer_valid": 0.1204,
+      "wer_valid": 0.2982,
+      "cer_lahaja": 0.1673,
+      "wer_lahaja": 0.3824
+    },
+    "best": {
+      "step": 12000,
+      "hours_seen": 154.299,
+      "cer": 0.0924,
+      "wer": 0.3048,
+      "n_eval": 1000,
+      "time": "01:17:33",
+      "cer_valid": 0.0924,
+      "wer_valid": 0.3048,
+      "cer_lahaja": 0.1596,
+      "wer_lahaja": 0.4166
+    }
+  },
+  "yc_kb_k2": {
+    "final": {
+      "step": 10098,
+      "hours_seen": 126.948,
+      "cer": 0.0417,
+      "wer": 0.1474,
+      "n_eval": 1000,
+      "time": "06:51:17",
+      "cer_valid": 0.0417,
+      "wer_valid": 0.1474,
+      "cer_lahaja": 0.1168,
+      "wer_lahaja": 0.3444
+    },
+    "best": {
+      "step": 8000,
+      "hours_seen": 100.571,
+      "cer": 0.0417,
+      "wer": 0.1482,
+      "n_eval": 1000,
+      "time": "06:42:24",
+      "cer_valid": 0.0417,
+      "wer_valid": 0.1482,
+      "cer_lahaja": 0.1163,
+      "wer_lahaja": 0.3427
+    }
+  }
+}

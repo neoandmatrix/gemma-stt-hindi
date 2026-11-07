@@ -1,0 +1,12 @@
+[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code
+[   0.7 min] torch 2.11.0+cu130, 2 GPU(s), 4 CPUs
+[   2.2 min] Kathbath / Lahaja / EmbeddingGemma 2 / teacher (it) downloaded
+[   6.6 min] data ready at 0.11 h: YODAS 1810 h in 25 files, Kathbath 48 h, 997 GB disk left
+[   6.6 min] Hima labels from /kaggle/input/notebooks/YOUR_KAGGLE_USER/gemma-stt-hindi-ladder/relabel_text.parquet: 303170 clips, 0 h rebuilt in 0 files at 0.11 h
+[   6.6 min] relabelling the rest of 25 files with it on 2 GPU(s) until 6.3 h
+[ 329.6 min] relabel_0.log exited with 0
+[ 329.6 min] relabel_1.log exited with 0
+[ 329.7 min] it relabelled: 970 h kept in 108 files at 5.49 h
+[ 329.7 min] relabel_1.log: done {"gpu": "1", "teacher": "it", "probe_s": {"ref": 34.1, "fp32": 5.2, "fp16": 2.8}, "probe_cer_vs_ref": {"fp32": 0.0003, "fp16": 0.0011}, "variant": "fp16", "clips_in": 177298, "clips_kept": 163238, "h_in": 438.71893555550196, "h_kept": 410.4680391666121, "drop_script": 6825, "drop_cps": 7226, "drop_empty": 9, "files_done": 12, "yt_vs_teacher_cer_sum": 46756.345235322515, "timed_out": false}
+[ 329.7 min] relabel_0.log: done {"gpu": "0", "teacher": "it", "probe_s": {"ref": 25.0, "fp32": 5.7, "fp16": 3.8}, "probe_cer_vs_ref": {"fp32": 0.0019, "fp16": 0.0}, "variant": "fp16", "clips_in": 239717, "clips_kept": 224070, "h_in": 591.1170277777674, "h_kept": 559.8106294444046, "drop_script": 7272, "drop_cps": 8361, "drop_empty": 14, "files_done": 13, "yt_vs_teacher_cer_sum": 64700.92879725512, "timed_out": false}
+[ 329.7 min] relabel-only night (TRAIN = False): done

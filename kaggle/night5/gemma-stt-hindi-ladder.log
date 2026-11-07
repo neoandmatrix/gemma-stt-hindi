@@ -1,0 +1,39 @@
+[{"stream_name":"stdout","time":1.514965348,"data":"[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code\n"}
+,{"stream_name":"stderr","time":19.303997377,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":19.304026279,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.304032747,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.30403826,"data":"datasets 4.8.5 requires huggingface-hub\u003c2.0,\u003e=0.25.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.30404339,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.304048512,"data":"gradio-client 2.6.1 requires huggingface-hub\u003c2.0,\u003e=0.19.3, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":35.031591117,"data":"[   0.6 min] torch 2.11.0+cu128, 2 GPU(s), 4 CPUs\n"}
+,{"stream_name":"stderr","time":86.964005187,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:03\u003c00:10,  3.59s/it]\rFetching 4 files:  50%|█████     | 2/4 [00:03\u003c00:03,  1.54s/it]\rFetching 4 files:  75%|███████▌  | 3/4 [00:03\u003c00:00,  1.08it/s]\rFetching 4 files: 100%|██████████| 4/4 [00:04\u003c00:00,  1.65it/s]\rFetching 4 files: 100%|██████████| 4/4 [00:04\u003c00:00,  1.00s/it]\n"}
+,{"stream_name":"stderr","time":99.603668361,"data":"\rFetching 15 files:   0%|          | 0/15 [00:00\u003c?, ?it/s]\rFetching 15 files:   7%|▋         | 1/15 [00:04\u003c00:57,  4.10s/it]\rFetching 15 files:  47%|████▋     | 7/15 [00:04\u003c00:03,  2.18it/s]\rFetching 15 files:  60%|██████    | 9/15 [00:04\u003c00:02,  2.60it/s]\rFetching 15 files:  80%|████████  | 12/15 [00:04\u003c00:00,  3.84it/s]\rFetching 15 files:  93%|█████████▎| 14/15 [00:12\u003c00:01,  1.18s/it]\rFetching 15 files: 100%|██████████| 15/15 [00:12\u003c00:00,  1.23it/s]\n"}
+,{"stream_name":"stderr","time":108.338326601,"data":"\rFetching 11 files:   0%|          | 0/11 [00:00\u003c?, ?it/s]\rFetching 11 files:   9%|▉         | 1/11 [00:00\u003c00:06,  1.65it/s]\rFetching 11 files:  36%|███▋      | 4/11 [00:00\u003c00:01,  6.22it/s]\rFetching 11 files:  64%|██████▎   | 7/11 [00:00\u003c00:00, 10.40it/s]\rFetching 11 files:  82%|████████▏ | 9/11 [00:01\u003c00:00,  7.53it/s]\rFetching 11 files: 100%|██████████| 11/11 [00:08\u003c00:00,  1.22s/it]\rFetching 11 files: 100%|██████████| 11/11 [00:08\u003c00:00,  1.33it/s]\n"}
+,{"stream_name":"stdout","time":108.338463791,"data":"[   1.8 min] Kathbath / Lahaja / EmbeddingGemma 2 / Hima-ASR downloaded\n"}
+,{"stream_name":"stdout","time":330.268824266,"data":"[   5.5 min] data ready at 0.09 h: YODAS 1810 h in 25 files, Kathbath 48 h, 1001 GB disk left\n"}
+,{"stream_name":"stdout","time":330.271885259,"data":"[   5.5 min] relabelling 25 files on 2 GPU(s) until session age 4.5 h\n"}
+,{"stream_name":"stdout","time":16230.344229146,"data":"[ 270.5 min] relabel_0.log exited with 0\n"}
+,{"stream_name":"stdout","time":16230.34548026,"data":"[ 270.5 min] relabel_1.log exited with 0\n"}
+,{"stream_name":"stdout","time":16295.494186965,"data":"[ 271.6 min] relabelled: 780 h kept in 84 files (303170 clips) at 4.53 h\n"}
+,{"stream_name":"stdout","time":16306.176265137,"data":"[ 271.8 min] units: 65 chars\n"}
+,{"stream_name":"stdout","time":16306.176373171,"data":"[ 271.8 min] plan: each GPU 342 min on the relabelled clips then Kathbath 45 min (GPU0 Hima labels, GPU1 YouTube captions)\n"}
+,{"stream_name":"stdout","time":16306.177263058,"data":"[ 271.8 min] start hl_k2 on GPU 0[ 271.8 min] start yc_k2 on GPU 1\n"}
+,{"stream_name":"stdout","time":16306.177294498,"data":"\n"}
+,{"stream_name":"stdout","time":36946.29064244,"data":"[ 615.8 min] hl_k2 exited with 0\n"}
+,{"stream_name":"stdout","time":36946.329686425,"data":"[ 615.8 min] yc_k2 exited with 0\n"}
+,{"stream_name":"stdout","time":36946.329706545,"data":"[ 615.8 min] start hl_kb_k2 on GPU 0[ 615.8 min] start yc_kb_k2 on GPU 1\n"}
+,{"stream_name":"stdout","time":36946.329710583,"data":"\n"}
+,{"stream_name":"stdout","time":39766.303607332,"data":"[ 662.8 min] yc_kb_k2 exited with 0[ 662.8 min] hl_kb_k2 exited with 0\n"}
+,{"stream_name":"stdout","time":39766.304505767,"data":"\n"}
+,{"stream_name":"stdout","time":39775.758904578,"data":"[ 662.9 min] SUMMARY hl_k2: best valid CER 0.057 WER 0.210 | lahaja CER 0.094 | 771.547 h seen\n"}
+,{"stream_name":"stdout","time":39775.758990161,"data":"[ 662.9 min] SUMMARY hl_kb_k2: best valid CER 0.037 WER 0.134 | lahaja CER 0.096 | 100.571 h seen\n"}
+,{"stream_name":"stdout","time":39775.759130176,"data":"[ 662.9 min] SUMMARY yc_k2: best valid CER 0.092 WER 0.305 | lahaja CER 0.160 | 154.299 h seen\n"}
+,{"stream_name":"stdout","time":39775.759223054,"data":"[ 662.9 min] SUMMARY yc_kb_k2: best valid CER 0.042 WER 0.148 | lahaja CER 0.116 | 100.571 h seen\n"}
+,{"stream_name":"stdout","time":39775.759290666,"data":"[ 662.9 min] done\n"}
+,{"stream_name":"stderr","time":39778.727979731,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":39778.728008207,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":39778.991244519,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":39778.991273521,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":39779.91659672,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":39780.840379044,"data":"[NbConvertApp] Writing 333457 bytes to __results__.html\n"}
+]

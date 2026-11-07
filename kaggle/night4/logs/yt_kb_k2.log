@@ -1,0 +1,233 @@
+train 34395 clips / 47.69 h | eval valid 1000, lahaja 1000 | units 65
+Loading weights:   0%|          | 0/1165 [00:00<?, ?it/s]Loading weights:  14%|█▍        | 163/1165 [00:00<00:00, 1608.99it/s]Loading weights:  28%|██▊       | 324/1165 [00:00<00:00, 1367.67it/s]Loading weights:  40%|███▉      | 463/1165 [00:00<00:00, 1313.96it/s]Loading weights:  51%|█████     | 596/1165 [00:00<00:00, 1314.05it/s]Loading weights:  63%|██████▎   | 729/1165 [00:00<00:00, 1296.36it/s]Loading weights:  74%|███████▎  | 859/1165 [00:00<00:00, 1033.36it/s]Loading weights:  83%|████████▎ | 970/1165 [00:00<00:00, 954.85it/s] Loading weights:  92%|█████████▏| 1071/1165 [00:01<00:00, 883.73it/s]Loading weights: 100%|█████████▉| 1163/1165 [00:01<00:00, 892.76it/s]Loading weights: 100%|██████████| 1165/1165 [00:01<00:00, 1054.04it/s]
+initialized from /kaggle/working/code/runs/yt_k2/last.pt
+8937 steps (3793/epoch), trainable 94M
+step 50/8937 | loss 0.297 | 0.63 h seen | 41 s audio/s | lr 1.47e-04 | VRAM 2.64 GiB
+step 100/8937 | loss 0.211 | 1.25 h seen | 48 s audio/s | lr 2.97e-04 | VRAM 2.64 GiB
+step 150/8937 | loss 0.217 | 1.87 h seen | 70 s audio/s | lr 3.00e-04 | VRAM 2.65 GiB
+step 200/8937 | loss 0.190 | 2.50 h seen | 76 s audio/s | lr 3.00e-04 | VRAM 2.65 GiB
+step 250/8937 | loss 0.217 | 3.13 h seen | 85 s audio/s | lr 3.00e-04 | VRAM 2.65 GiB
+step 300/8937 | loss 0.199 | 3.75 h seen | 85 s audio/s | lr 3.00e-04 | VRAM 2.65 GiB
+step 350/8937 | loss 0.172 | 4.38 h seen | 117 s audio/s | lr 2.99e-04 | VRAM 2.65 GiB
+step 400/8937 | loss 0.199 | 5.01 h seen | 125 s audio/s | lr 2.99e-04 | VRAM 2.65 GiB
+step 450/8937 | loss 0.185 | 5.64 h seen | 112 s audio/s | lr 2.99e-04 | VRAM 2.65 GiB
+step 500/8937 | loss 0.178 | 6.26 h seen | 188 s audio/s | lr 2.99e-04 | VRAM 2.65 GiB
+step 550/8937 | loss 0.176 | 6.90 h seen | 169 s audio/s | lr 2.98e-04 | VRAM 2.66 GiB
+step 600/8937 | loss 0.189 | 7.53 h seen | 142 s audio/s | lr 2.98e-04 | VRAM 2.66 GiB
+step 650/8937 | loss 0.180 | 8.16 h seen | 143 s audio/s | lr 2.97e-04 | VRAM 2.66 GiB
+step 700/8937 | loss 0.182 | 8.79 h seen | 206 s audio/s | lr 2.97e-04 | VRAM 2.66 GiB
+step 750/8937 | loss 0.184 | 9.42 h seen | 184 s audio/s | lr 2.96e-04 | VRAM 2.66 GiB
+step 800/8937 | loss 0.167 | 10.05 h seen | 205 s audio/s | lr 2.96e-04 | VRAM 2.66 GiB
+step 850/8937 | loss 0.196 | 10.68 h seen | 184 s audio/s | lr 2.95e-04 | VRAM 2.66 GiB
+step 900/8937 | loss 0.162 | 11.30 h seen | 170 s audio/s | lr 2.95e-04 | VRAM 2.66 GiB
+step 950/8937 | loss 0.165 | 11.93 h seen | 187 s audio/s | lr 2.94e-04 | VRAM 2.66 GiB
+step 1000/8937 | loss 0.171 | 12.56 h seen | 154 s audio/s | lr 2.93e-04 | VRAM 2.66 GiB
+step 1050/8937 | loss 0.170 | 13.19 h seen | 165 s audio/s | lr 2.92e-04 | VRAM 2.66 GiB
+step 1100/8937 | loss 0.158 | 13.83 h seen | 202 s audio/s | lr 2.92e-04 | VRAM 2.66 GiB
+step 1150/8937 | loss 0.193 | 14.46 h seen | 200 s audio/s | lr 2.91e-04 | VRAM 2.66 GiB
+step 1200/8937 | loss 0.154 | 15.09 h seen | 182 s audio/s | lr 2.90e-04 | VRAM 2.66 GiB
+step 1250/8937 | loss 0.183 | 15.72 h seen | 185 s audio/s | lr 2.89e-04 | VRAM 2.66 GiB
+step 1300/8937 | loss 0.190 | 16.34 h seen | 154 s audio/s | lr 2.88e-04 | VRAM 2.66 GiB
+step 1350/8937 | loss 0.172 | 16.97 h seen | 153 s audio/s | lr 2.87e-04 | VRAM 2.67 GiB
+step 1400/8937 | loss 0.164 | 17.60 h seen | 203 s audio/s | lr 2.86e-04 | VRAM 2.67 GiB
+step 1450/8937 | loss 0.158 | 18.22 h seen | 123 s audio/s | lr 2.85e-04 | VRAM 2.67 GiB
+step 1500/8937 | loss 0.168 | 18.85 h seen | 203 s audio/s | lr 2.84e-04 | VRAM 2.67 GiB
+step 1550/8937 | loss 0.163 | 19.48 h seen | 184 s audio/s | lr 2.82e-04 | VRAM 2.67 GiB
+step 1600/8937 | loss 0.192 | 20.11 h seen | 135 s audio/s | lr 2.81e-04 | VRAM 2.67 GiB
+step 1650/8937 | loss 0.158 | 20.74 h seen | 203 s audio/s | lr 2.80e-04 | VRAM 2.67 GiB
+step 1700/8937 | loss 0.158 | 21.36 h seen | 168 s audio/s | lr 2.79e-04 | VRAM 2.67 GiB
+step 1750/8937 | loss 0.179 | 21.99 h seen | 181 s audio/s | lr 2.77e-04 | VRAM 2.67 GiB
+step 1800/8937 | loss 0.169 | 22.62 h seen | 201 s audio/s | lr 2.76e-04 | VRAM 2.67 GiB
+step 1850/8937 | loss 0.164 | 23.24 h seen | 164 s audio/s | lr 2.75e-04 | VRAM 2.67 GiB
+step 1900/8937 | loss 0.167 | 23.87 h seen | 182 s audio/s | lr 2.73e-04 | VRAM 2.67 GiB
+step 1950/8937 | loss 0.166 | 24.50 h seen | 202 s audio/s | lr 2.72e-04 | VRAM 2.67 GiB
+step 2000/8937 | loss 0.167 | 25.14 h seen | 182 s audio/s | lr 2.70e-04 | VRAM 2.67 GiB
+== EVAL step 2000 [valid]: CER 0.043 WER 0.154 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल से ने के बाद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: ना सुरतीन शाह पर किस ढंग े माहाआ
+== EVAL step 2000 [lahaja]: CER 0.116 WER 0.334 (1000 clips)
+   ref: समय
+   hyp: 
+   ref: हम
+   hyp: 
+step 2050/8937 | loss 0.168 | 25.76 h seen | 20 s audio/s | lr 2.69e-04 | VRAM 2.67 GiB
+step 2100/8937 | loss 0.164 | 26.39 h seen | 183 s audio/s | lr 2.67e-04 | VRAM 2.67 GiB
+step 2150/8937 | loss 0.161 | 27.02 h seen | 202 s audio/s | lr 2.66e-04 | VRAM 2.67 GiB
+step 2200/8937 | loss 0.164 | 27.64 h seen | 202 s audio/s | lr 2.64e-04 | VRAM 2.67 GiB
+step 2250/8937 | loss 0.163 | 28.27 h seen | 187 s audio/s | lr 2.62e-04 | VRAM 2.67 GiB
+step 2300/8937 | loss 0.196 | 28.90 h seen | 185 s audio/s | lr 2.61e-04 | VRAM 2.67 GiB
+step 2350/8937 | loss 0.169 | 29.53 h seen | 184 s audio/s | lr 2.59e-04 | VRAM 2.67 GiB
+step 2400/8937 | loss 0.163 | 30.16 h seen | 202 s audio/s | lr 2.57e-04 | VRAM 2.67 GiB
+step 2450/8937 | loss 0.153 | 30.79 h seen | 184 s audio/s | lr 2.56e-04 | VRAM 2.67 GiB
+step 2500/8937 | loss 0.172 | 31.43 h seen | 183 s audio/s | lr 2.54e-04 | VRAM 2.67 GiB
+step 2550/8937 | loss 0.155 | 32.06 h seen | 183 s audio/s | lr 2.52e-04 | VRAM 2.67 GiB
+step 2600/8937 | loss 0.161 | 32.68 h seen | 203 s audio/s | lr 2.50e-04 | VRAM 2.67 GiB
+step 2650/8937 | loss 0.171 | 33.31 h seen | 181 s audio/s | lr 2.48e-04 | VRAM 2.67 GiB
+step 2700/8937 | loss 0.145 | 33.94 h seen | 203 s audio/s | lr 2.46e-04 | VRAM 2.67 GiB
+step 2750/8937 | loss 0.181 | 34.57 h seen | 201 s audio/s | lr 2.44e-04 | VRAM 2.67 GiB
+step 2800/8937 | loss 0.177 | 35.20 h seen | 184 s audio/s | lr 2.42e-04 | VRAM 2.67 GiB
+step 2850/8937 | loss 0.144 | 35.83 h seen | 180 s audio/s | lr 2.41e-04 | VRAM 2.67 GiB
+step 2900/8937 | loss 0.165 | 36.46 h seen | 168 s audio/s | lr 2.39e-04 | VRAM 2.67 GiB
+step 2950/8937 | loss 0.147 | 37.09 h seen | 184 s audio/s | lr 2.36e-04 | VRAM 2.67 GiB
+step 3000/8937 | loss 0.155 | 37.71 h seen | 185 s audio/s | lr 2.34e-04 | VRAM 2.67 GiB
+step 3050/8937 | loss 0.150 | 38.34 h seen | 193 s audio/s | lr 2.32e-04 | VRAM 2.67 GiB
+step 3100/8937 | loss 0.145 | 38.97 h seen | 202 s audio/s | lr 2.30e-04 | VRAM 2.67 GiB
+step 3150/8937 | loss 0.145 | 39.60 h seen | 184 s audio/s | lr 2.28e-04 | VRAM 2.67 GiB
+step 3200/8937 | loss 0.186 | 40.24 h seen | 202 s audio/s | lr 2.26e-04 | VRAM 2.67 GiB
+step 3250/8937 | loss 0.156 | 40.86 h seen | 199 s audio/s | lr 2.24e-04 | VRAM 2.67 GiB
+step 3300/8937 | loss 0.149 | 41.49 h seen | 202 s audio/s | lr 2.22e-04 | VRAM 2.67 GiB
+step 3350/8937 | loss 0.145 | 42.12 h seen | 183 s audio/s | lr 2.20e-04 | VRAM 2.67 GiB
+step 3400/8937 | loss 0.160 | 42.75 h seen | 203 s audio/s | lr 2.17e-04 | VRAM 2.67 GiB
+step 3450/8937 | loss 0.175 | 43.37 h seen | 167 s audio/s | lr 2.15e-04 | VRAM 2.67 GiB
+step 3500/8937 | loss 0.143 | 44.00 h seen | 185 s audio/s | lr 2.13e-04 | VRAM 2.67 GiB
+step 3550/8937 | loss 0.144 | 44.64 h seen | 204 s audio/s | lr 2.11e-04 | VRAM 2.67 GiB
+step 3600/8937 | loss 0.162 | 45.27 h seen | 204 s audio/s | lr 2.08e-04 | VRAM 2.67 GiB
+step 3650/8937 | loss 0.155 | 45.89 h seen | 186 s audio/s | lr 2.06e-04 | VRAM 2.67 GiB
+step 3700/8937 | loss 0.172 | 46.52 h seen | 184 s audio/s | lr 2.04e-04 | VRAM 2.67 GiB
+step 3750/8937 | loss 0.150 | 47.15 h seen | 186 s audio/s | lr 2.01e-04 | VRAM 2.67 GiB
+step 3800/8937 | loss 0.137 | 47.78 h seen | 185 s audio/s | lr 1.99e-04 | VRAM 2.67 GiB
+step 3850/8937 | loss 0.111 | 48.40 h seen | 211 s audio/s | lr 1.97e-04 | VRAM 2.67 GiB
+step 3900/8937 | loss 0.091 | 49.03 h seen | 210 s audio/s | lr 1.94e-04 | VRAM 2.67 GiB
+step 3950/8937 | loss 0.099 | 49.65 h seen | 211 s audio/s | lr 1.92e-04 | VRAM 2.67 GiB
+step 4000/8937 | loss 0.100 | 50.28 h seen | 210 s audio/s | lr 1.90e-04 | VRAM 2.67 GiB
+== EVAL step 4000 [valid]: CER 0.040 WER 0.143 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल स ने के ाद खेदत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नास्रतीन शाह पर किस ढंग से मल हाआ
+== EVAL step 4000 [lahaja]: CER 0.111 WER 0.331 (1000 clips)
+   ref: समय
+   hyp: 
+   ref: हम
+   hyp: 
+step 4050/8937 | loss 0.115 | 50.91 h seen | 49 s audio/s | lr 1.87e-04 | VRAM 2.67 GiB
+step 4100/8937 | loss 0.110 | 51.54 h seen | 208 s audio/s | lr 1.85e-04 | VRAM 2.67 GiB
+step 4150/8937 | loss 0.104 | 52.17 h seen | 207 s audio/s | lr 1.83e-04 | VRAM 2.67 GiB
+step 4200/8937 | loss 0.099 | 52.80 h seen | 206 s audio/s | lr 1.80e-04 | VRAM 2.67 GiB
+step 4250/8937 | loss 0.100 | 53.42 h seen | 205 s audio/s | lr 1.78e-04 | VRAM 2.67 GiB
+step 4300/8937 | loss 0.099 | 54.06 h seen | 208 s audio/s | lr 1.76e-04 | VRAM 2.67 GiB
+step 4350/8937 | loss 0.117 | 54.69 h seen | 205 s audio/s | lr 1.73e-04 | VRAM 2.67 GiB
+step 4400/8937 | loss 0.104 | 55.32 h seen | 207 s audio/s | lr 1.71e-04 | VRAM 2.67 GiB
+step 4450/8937 | loss 0.110 | 55.95 h seen | 205 s audio/s | lr 1.68e-04 | VRAM 2.67 GiB
+step 4500/8937 | loss 0.109 | 56.58 h seen | 208 s audio/s | lr 1.66e-04 | VRAM 2.67 GiB
+step 4550/8937 | loss 0.109 | 57.21 h seen | 207 s audio/s | lr 1.64e-04 | VRAM 2.67 GiB
+step 4600/8937 | loss 0.098 | 57.83 h seen | 207 s audio/s | lr 1.61e-04 | VRAM 2.67 GiB
+step 4650/8937 | loss 0.106 | 58.46 h seen | 207 s audio/s | lr 1.59e-04 | VRAM 2.67 GiB
+step 4700/8937 | loss 0.114 | 59.09 h seen | 206 s audio/s | lr 1.56e-04 | VRAM 2.67 GiB
+step 4750/8937 | loss 0.104 | 59.72 h seen | 207 s audio/s | lr 1.54e-04 | VRAM 2.67 GiB
+step 4800/8937 | loss 0.099 | 60.35 h seen | 207 s audio/s | lr 1.52e-04 | VRAM 2.67 GiB
+step 4850/8937 | loss 0.109 | 60.98 h seen | 208 s audio/s | lr 1.49e-04 | VRAM 2.67 GiB
+step 4900/8937 | loss 0.120 | 61.61 h seen | 208 s audio/s | lr 1.47e-04 | VRAM 2.67 GiB
+step 4950/8937 | loss 0.100 | 62.24 h seen | 207 s audio/s | lr 1.44e-04 | VRAM 2.67 GiB
+step 5000/8937 | loss 0.111 | 62.87 h seen | 208 s audio/s | lr 1.42e-04 | VRAM 2.67 GiB
+step 5050/8937 | loss 0.108 | 63.49 h seen | 207 s audio/s | lr 1.40e-04 | VRAM 2.67 GiB
+step 5100/8937 | loss 0.107 | 64.11 h seen | 207 s audio/s | lr 1.37e-04 | VRAM 2.67 GiB
+step 5150/8937 | loss 0.119 | 64.74 h seen | 208 s audio/s | lr 1.35e-04 | VRAM 2.67 GiB
+step 5200/8937 | loss 0.100 | 65.37 h seen | 207 s audio/s | lr 1.33e-04 | VRAM 2.67 GiB
+step 5250/8937 | loss 0.095 | 66.00 h seen | 209 s audio/s | lr 1.30e-04 | VRAM 2.67 GiB
+step 5300/8937 | loss 0.110 | 66.62 h seen | 208 s audio/s | lr 1.28e-04 | VRAM 2.67 GiB
+step 5350/8937 | loss 0.110 | 67.25 h seen | 209 s audio/s | lr 1.26e-04 | VRAM 2.67 GiB
+step 5400/8937 | loss 0.107 | 67.88 h seen | 209 s audio/s | lr 1.23e-04 | VRAM 2.67 GiB
+step 5450/8937 | loss 0.106 | 68.51 h seen | 205 s audio/s | lr 1.21e-04 | VRAM 2.67 GiB
+step 5500/8937 | loss 0.107 | 69.14 h seen | 207 s audio/s | lr 1.19e-04 | VRAM 2.67 GiB
+step 5550/8937 | loss 0.099 | 69.77 h seen | 209 s audio/s | lr 1.17e-04 | VRAM 2.67 GiB
+step 5600/8937 | loss 0.101 | 70.40 h seen | 203 s audio/s | lr 1.14e-04 | VRAM 2.67 GiB
+step 5650/8937 | loss 0.111 | 71.03 h seen | 204 s audio/s | lr 1.12e-04 | VRAM 2.67 GiB
+step 5700/8937 | loss 0.091 | 71.65 h seen | 208 s audio/s | lr 1.10e-04 | VRAM 2.67 GiB
+step 5750/8937 | loss 0.115 | 72.28 h seen | 209 s audio/s | lr 1.08e-04 | VRAM 2.67 GiB
+step 5800/8937 | loss 0.094 | 72.91 h seen | 209 s audio/s | lr 1.06e-04 | VRAM 2.67 GiB
+step 5850/8937 | loss 0.093 | 73.54 h seen | 208 s audio/s | lr 1.03e-04 | VRAM 2.67 GiB
+step 5900/8937 | loss 0.090 | 74.17 h seen | 209 s audio/s | lr 1.01e-04 | VRAM 2.67 GiB
+step 5950/8937 | loss 0.111 | 74.79 h seen | 208 s audio/s | lr 9.93e-05 | VRAM 2.67 GiB
+step 6000/8937 | loss 0.113 | 75.42 h seen | 208 s audio/s | lr 9.72e-05 | VRAM 2.67 GiB
+== EVAL step 6000 [valid]: CER 0.039 WER 0.140 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल स ने के बाद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: ना सुरतीन शाह पर कि स ढंग स ा हाआ
+== EVAL step 6000 [lahaja]: CER 0.112 WER 0.334 (1000 clips)
+   ref: समय
+   hyp: 
+   ref: हम
+   hyp: 
+step 6050/8937 | loss 0.101 | 76.05 h seen | 52 s audio/s | lr 9.51e-05 | VRAM 2.67 GiB
+step 6100/8937 | loss 0.099 | 76.68 h seen | 209 s audio/s | lr 9.31e-05 | VRAM 2.67 GiB
+step 6150/8937 | loss 0.095 | 77.31 h seen | 208 s audio/s | lr 9.11e-05 | VRAM 2.67 GiB
+step 6200/8937 | loss 0.114 | 77.95 h seen | 210 s audio/s | lr 8.91e-05 | VRAM 2.67 GiB
+step 6250/8937 | loss 0.099 | 78.58 h seen | 209 s audio/s | lr 8.71e-05 | VRAM 2.67 GiB
+step 6300/8937 | loss 0.112 | 79.21 h seen | 210 s audio/s | lr 8.51e-05 | VRAM 2.67 GiB
+step 6350/8937 | loss 0.093 | 79.83 h seen | 208 s audio/s | lr 8.32e-05 | VRAM 2.67 GiB
+step 6400/8937 | loss 0.104 | 80.46 h seen | 210 s audio/s | lr 8.13e-05 | VRAM 2.67 GiB
+step 6450/8937 | loss 0.124 | 81.08 h seen | 208 s audio/s | lr 7.95e-05 | VRAM 2.67 GiB
+step 6500/8937 | loss 0.123 | 81.71 h seen | 208 s audio/s | lr 7.76e-05 | VRAM 2.67 GiB
+step 6550/8937 | loss 0.104 | 82.34 h seen | 209 s audio/s | lr 7.58e-05 | VRAM 2.67 GiB
+step 6600/8937 | loss 0.106 | 82.97 h seen | 210 s audio/s | lr 7.40e-05 | VRAM 2.67 GiB
+step 6650/8937 | loss 0.099 | 83.60 h seen | 210 s audio/s | lr 7.23e-05 | VRAM 2.67 GiB
+step 6700/8937 | loss 0.103 | 84.23 h seen | 210 s audio/s | lr 7.05e-05 | VRAM 2.67 GiB
+step 6750/8937 | loss 0.104 | 84.85 h seen | 207 s audio/s | lr 6.88e-05 | VRAM 2.67 GiB
+step 6800/8937 | loss 0.108 | 85.48 h seen | 209 s audio/s | lr 6.72e-05 | VRAM 2.67 GiB
+step 6850/8937 | loss 0.105 | 86.11 h seen | 208 s audio/s | lr 6.55e-05 | VRAM 2.67 GiB
+step 6900/8937 | loss 0.101 | 86.74 h seen | 209 s audio/s | lr 6.39e-05 | VRAM 2.67 GiB
+step 6950/8937 | loss 0.109 | 87.37 h seen | 209 s audio/s | lr 6.23e-05 | VRAM 2.67 GiB
+step 7000/8937 | loss 0.102 | 88.00 h seen | 208 s audio/s | lr 6.08e-05 | VRAM 2.67 GiB
+step 7050/8937 | loss 0.099 | 88.63 h seen | 209 s audio/s | lr 5.93e-05 | VRAM 2.67 GiB
+step 7100/8937 | loss 0.094 | 89.25 h seen | 208 s audio/s | lr 5.78e-05 | VRAM 2.67 GiB
+step 7150/8937 | loss 0.094 | 89.89 h seen | 209 s audio/s | lr 5.64e-05 | VRAM 2.67 GiB
+step 7200/8937 | loss 0.095 | 90.51 h seen | 208 s audio/s | lr 5.50e-05 | VRAM 2.67 GiB
+step 7250/8937 | loss 0.083 | 91.14 h seen | 207 s audio/s | lr 5.36e-05 | VRAM 2.67 GiB
+step 7300/8937 | loss 0.116 | 91.77 h seen | 209 s audio/s | lr 5.22e-05 | VRAM 2.67 GiB
+step 7350/8937 | loss 0.100 | 92.40 h seen | 208 s audio/s | lr 5.09e-05 | VRAM 2.67 GiB
+step 7400/8937 | loss 0.094 | 93.03 h seen | 209 s audio/s | lr 4.97e-05 | VRAM 2.67 GiB
+step 7450/8937 | loss 0.108 | 93.66 h seen | 208 s audio/s | lr 4.85e-05 | VRAM 2.67 GiB
+step 7500/8937 | loss 0.105 | 94.29 h seen | 208 s audio/s | lr 4.73e-05 | VRAM 2.67 GiB
+step 7550/8937 | loss 0.105 | 94.92 h seen | 207 s audio/s | lr 4.61e-05 | VRAM 2.67 GiB
+step 7600/8937 | loss 0.092 | 95.55 h seen | 208 s audio/s | lr 4.50e-05 | VRAM 2.67 GiB
+step 7650/8937 | loss 0.073 | 96.18 h seen | 211 s audio/s | lr 4.39e-05 | VRAM 2.67 GiB
+step 7700/8937 | loss 0.073 | 96.81 h seen | 212 s audio/s | lr 4.29e-05 | VRAM 2.67 GiB
+step 7750/8937 | loss 0.074 | 97.44 h seen | 211 s audio/s | lr 4.19e-05 | VRAM 2.67 GiB
+step 7800/8937 | loss 0.086 | 98.06 h seen | 210 s audio/s | lr 4.09e-05 | VRAM 2.67 GiB
+step 7850/8937 | loss 0.078 | 98.69 h seen | 209 s audio/s | lr 4.00e-05 | VRAM 2.67 GiB
+step 7900/8937 | loss 0.077 | 99.32 h seen | 211 s audio/s | lr 3.91e-05 | VRAM 2.67 GiB
+step 7950/8937 | loss 0.065 | 99.94 h seen | 211 s audio/s | lr 3.82e-05 | VRAM 2.67 GiB
+step 8000/8937 | loss 0.064 | 100.57 h seen | 210 s audio/s | lr 3.74e-05 | VRAM 2.67 GiB
+== EVAL step 8000 [valid]: CER 0.039 WER 0.136 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल स ने के बाद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: ना सुरतीन शाह पर किस ढंग से हाहाआ
+== EVAL step 8000 [lahaja]: CER 0.111 WER 0.331 (1000 clips)
+   ref: समय
+   hyp: 
+   ref: हम
+   hyp: 
+step 8050/8937 | loss 0.073 | 101.20 h seen | 51 s audio/s | lr 3.67e-05 | VRAM 2.67 GiB
+step 8100/8937 | loss 0.078 | 101.83 h seen | 201 s audio/s | lr 3.59e-05 | VRAM 2.67 GiB
+step 8150/8937 | loss 0.075 | 102.46 h seen | 207 s audio/s | lr 3.53e-05 | VRAM 2.67 GiB
+step 8200/8937 | loss 0.064 | 103.09 h seen | 209 s audio/s | lr 3.46e-05 | VRAM 2.67 GiB
+step 8250/8937 | loss 0.075 | 103.71 h seen | 208 s audio/s | lr 3.40e-05 | VRAM 2.67 GiB
+step 8300/8937 | loss 0.076 | 104.34 h seen | 210 s audio/s | lr 3.35e-05 | VRAM 2.67 GiB
+step 8350/8937 | loss 0.071 | 104.97 h seen | 210 s audio/s | lr 3.29e-05 | VRAM 2.67 GiB
+step 8400/8937 | loss 0.070 | 105.60 h seen | 211 s audio/s | lr 3.25e-05 | VRAM 2.67 GiB
+step 8450/8937 | loss 0.066 | 106.22 h seen | 210 s audio/s | lr 3.20e-05 | VRAM 2.67 GiB
+step 8500/8937 | loss 0.069 | 106.85 h seen | 210 s audio/s | lr 3.16e-05 | VRAM 2.67 GiB
+step 8550/8937 | loss 0.079 | 107.48 h seen | 210 s audio/s | lr 3.13e-05 | VRAM 2.67 GiB
+step 8600/8937 | loss 0.073 | 108.11 h seen | 211 s audio/s | lr 3.10e-05 | VRAM 2.67 GiB
+step 8650/8937 | loss 0.077 | 108.74 h seen | 209 s audio/s | lr 3.07e-05 | VRAM 2.67 GiB
+step 8700/8937 | loss 0.076 | 109.37 h seen | 209 s audio/s | lr 3.05e-05 | VRAM 2.67 GiB
+step 8750/8937 | loss 0.080 | 110.00 h seen | 208 s audio/s | lr 3.03e-05 | VRAM 2.67 GiB
+step 8800/8937 | loss 0.074 | 110.63 h seen | 209 s audio/s | lr 3.02e-05 | VRAM 2.67 GiB
+step 8850/8937 | loss 0.072 | 111.26 h seen | 204 s audio/s | lr 3.01e-05 | VRAM 2.67 GiB
+step 8900/8937 | loss 0.073 | 111.89 h seen | 212 s audio/s | lr 3.00e-05 | VRAM 2.67 GiB
+== EVAL step 8937 [valid]: CER 0.039 WER 0.138 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल स ने के बाद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: ना सुरतीन शाह पर किस ढंग सेमहाहाआ
+== EVAL step 8937 [lahaja]: CER 0.112 WER 0.336 (1000 clips)
+   ref: समय
+   hyp: 
+   ref: हम
+   hyp: 
+done: 8937 steps, best CER 0.03864095244726032, non-finite losses 0

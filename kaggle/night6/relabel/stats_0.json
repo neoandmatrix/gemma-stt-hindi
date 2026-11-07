@@ -1,0 +1,25 @@
+{
+ "gpu": "0",
+ "teacher": "it",
+ "probe_s": {
+  "ref": 25.0,
+  "fp32": 5.7,
+  "fp16": 3.8
+ },
+ "probe_cer_vs_ref": {
+  "fp32": 0.0019,
+  "fp16": 0.0
+ },
+ "variant": "fp16",
+ "clips_in": 239717,
+ "clips_kept": 224070,
+ "h_in": 591.1170277777674,
+ "h_kept": 559.8106294444046,
+ "drop_script": 7272,
+ "drop_cps": 8361,
+ "drop_empty": 14,
+ "files_done": 13,
+ "yt_vs_teacher_cer_sum": 64700.92879725512,
+ "timed_out": false,
+ "yt_vs_teacher_cer": 0.2699
+}

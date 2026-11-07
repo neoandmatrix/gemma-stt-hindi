@@ -1,0 +1,32 @@
+gemma-stt-hindi
+
+Built with Indic-Transcribe-core from Bodhan AI / AI4Bharat.
+
+This model is a Derivative of Indic-Transcribe-core under the Indic Open Model License v1.0 (it is trained
+substantially on Indic-Transcribe-core's Output), and is licensed under that exact License (file LICENSE).
+Copyright of the Indic Open Model License: IITM BODHAN-AI FOUNDATION.
+
+Upstream parts and their terms:
+
+1. Audio encoder: google/embeddinggemma-2 (audio tower), Apache License 2.0. The top 2 of its 12 conformer layers
+   were changed by further training; the other weights are unchanged.
+
+2. Training labels, part 1 (~970 h): transcripts produced by bodhan-ai/indic-transcribe-core
+   (Indic Open Model License v1.0; its base model nvidia/canary-1b-v2 carries its own terms).
+
+3. Training labels, part 2 (~780 h): transcripts produced by Prahaladha/hima-asr (Apache 2.0 for its own parts).
+   Hima-ASR's text decoder is a Model Derivative of Gemma 3 270M. Gemma is provided under and subject to the
+   Gemma Terms of Use found at ai.google.dev/gemma/terms. Because this model was trained on Hima-ASR's output,
+   the use restrictions of those terms (the Gemma Prohibited Use Policy, ai.google.dev/gemma/prohibited_use_policy)
+   are passed on and apply to any use of this model.
+
+4. Training audio: YODAS v3 (espnet/yodas3), CC-BY-3.0, Hindi YouTube audio from Creative-Commons-licensed videos.
+   Fine-tuning/eval audio: Kathbath (ai4bharat/Kathbath), CC-BY-4.0. Evaluation only: Lahaja (ai4bharat/Lahaja), CC-BY-4.0.
+
+5. Design: inspired by QUAN-Transcribe (github.com/qnguyen3/QUAN-Transcribe); the code here is an independent
+   implementation.
+
+6. kenlm/hi3.arpa: a word 3-gram language model built from the teacher transcripts in 2. and 3. It is covered by the
+   same terms as the model.
+
+Neither Bodhan AI, AI4Bharat, IIT Madras, Google nor the Hima-ASR authors endorse or are affiliated with this model.

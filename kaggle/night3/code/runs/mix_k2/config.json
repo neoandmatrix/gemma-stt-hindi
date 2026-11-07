@@ -1,0 +1,73 @@
+{
+  "model": {
+    "n_units": 65,
+    "d_model": 768,
+    "n_layers": 6,
+    "n_heads": 12,
+    "ff_mult": 4,
+    "conv_kernel": 15,
+    "dropout": 0.1,
+    "unfreeze_top_k": 2,
+    "amp": "fp16"
+  },
+  "args": {
+    "run": "mix_k2",
+    "train": [
+      "/tmp/arrow/yodas_yodas_hi_0020.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0040.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0060.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0080.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0100.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0120.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0180.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0200.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0220.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0260.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0320.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0360.arrow",
+      "/tmp/arrow/yodas_yodas_hi_0400.arrow",
+      "/tmp/arrow/kb_train-00000-of-00032.arrow",
+      "/tmp/arrow/kb_train-00001-of-00032.arrow",
+      "/tmp/arrow/kb_train-00002-of-00032.arrow",
+      "/tmp/arrow/kb_train-00003-of-00032.arrow",
+      "/tmp/arrow/kb_train-00004-of-00032.arrow",
+      "/tmp/arrow/kb_train-00005-of-00032.arrow",
+      "/tmp/arrow/kb_train-00006-of-00032.arrow",
+      "/tmp/arrow/kb_train-00007-of-00032.arrow",
+      "/tmp/arrow/kb_train-00008-of-00032.arrow",
+      "/tmp/arrow/kb_train-00009-of-00032.arrow",
+      "/tmp/arrow/kb_train-00010-of-00032.arrow",
+      "/tmp/arrow/kb_train-00011-of-00032.arrow"
+    ],
+    "eval": [
+      "/tmp/arrow/valid_valid-00000-of-00002.arrow"
+    ],
+    "eval_set": [
+      [
+        "lahaja",
+        "/tmp/arrow/lahaja_*.arrow"
+      ]
+    ],
+    "eval_clips": 1000,
+    "eval_on_train": false,
+    "max_train_clips": null,
+    "units": "/kaggle/working/units_char.json",
+    "unit_type": "token",
+    "unfreeze": 2,
+    "epochs": 1.612,
+    "batch_seconds": 48,
+    "lr": 0.001,
+    "enc_lr": 5e-05,
+    "warmup": 500,
+    "eval_every": 2000,
+    "workers": 3,
+    "resume": false,
+    "amp": "fp16",
+    "init": null,
+    "eval_only": false,
+    "max_steps": null,
+    "max_minutes": 664.0,
+    "gate_hours": null,
+    "gate_cer": null
+  }
+}

@@ -1,0 +1,16 @@
+[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code
+[   0.6 min] torch 2.11.0+cu128, 2 GPU(s), 4 CPUs
+[   1.5 min] Kathbath / Lahaja / EmbeddingGemma 2 downloaded
+[   4.5 min] data ready at 0.07 h: YODAS 982 h in 13 files, Kathbath 48 h, 1099 GB disk left
+[   4.6 min] units: 63 chars
+[   4.6 min] plan: GPU0 YODAS 609 min then Kathbath 45 min | GPU1 mixed 664 min
+[   4.6 min] start mix_k2 on GPU 1
+[   4.6 min] start yt_k2 on GPU 0
+[ 510.6 min] yt_k2 exited with 0
+[ 510.6 min] start yt_kb_k2 on GPU 0
+[ 557.6 min] yt_kb_k2 exited with 0
+[ 578.6 min] mix_k2 exited with 0
+[ 578.6 min] SUMMARY mix_k2: best valid CER 0.042 WER 0.150 | lahaja CER 0.161 | 1660.574 h seen
+[ 578.6 min] SUMMARY yt_k2: best valid CER 0.094 WER 0.318 | lahaja CER 0.165 | 77.129 h seen
+[ 578.6 min] SUMMARY yt_kb_k2: best valid CER 0.040 WER 0.141 | lahaja CER 0.120 | 100.571 h seen
+[ 578.6 min] done

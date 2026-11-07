@@ -1,0 +1,37 @@
+{
+  "model": {
+    "n_units": 6687,
+    "d_model": 768,
+    "n_layers": 6,
+    "n_heads": 12,
+    "ff_mult": 4,
+    "conv_kernel": 15,
+    "dropout": 0.1,
+    "unfreeze_top_k": 0,
+    "grad_ckpt": true
+  },
+  "args": {
+    "run": "s1_4h_frozen",
+    "train": [
+      "data/kathbath/hindi/train-00000-of-00032.parquet"
+    ],
+    "eval": [
+      "data/kathbath/hindi/valid-00000-of-00002.parquet"
+    ],
+    "eval_clips": 1000,
+    "eval_on_train": false,
+    "max_train_clips": null,
+    "units": null,
+    "unfreeze": 0,
+    "epochs": 8.0,
+    "batch_seconds": 48,
+    "lr": 0.001,
+    "enc_lr": 5e-05,
+    "warmup": 200,
+    "eval_every": 400,
+    "workers": 4,
+    "resume": false,
+    "gate_hours": null,
+    "gate_cer": null
+  }
+}

@@ -1,0 +1,26 @@
+# environment
+.venv/
+__pycache__/
+# data, audio, checkpoints, big LM files (the model and LM are on Hugging Face)
+data/
+runs/*/*.pt
+*.pt
+*.arpa
+*.parquet
+*.arrow
+*.tar
+*.opus
+*.wav
+*.flac
+hf_out/
+lm/text/
+lm/logits/
+lm/unigrams.txt
+kaggle/mytest_ds/*.parquet
+kaggle/*_out/data/
+# copies of the code that Kaggle wrote back into its outputs
+kaggle/output/code/*.py
+kaggle/night*/code/*.py
+# transcripts of my own voice clips
+kaggle/output/score_mine_*.txt
+kaggle/night7/code/runs/n7_*

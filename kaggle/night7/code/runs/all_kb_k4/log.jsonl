@@ -1,0 +1,5 @@
+{"step": 2000, "hours_seen": 25.136, "cer": 0.0377, "wer": 0.1338, "n_eval": 1000, "time": "00:43:32", "cer_valid": 0.0377, "wer_valid": 0.1338, "cer_lahaja": 0.0888, "wer_lahaja": 0.2843}
+{"step": 4000, "hours_seen": 50.279, "cer": 0.0342, "wer": 0.1213, "n_eval": 1000, "time": "00:53:30", "cer_valid": 0.0342, "wer_valid": 0.1213, "cer_lahaja": 0.0908, "wer_lahaja": 0.2933}
+{"step": 6000, "hours_seen": 75.42, "cer": 0.033, "wer": 0.1162, "n_eval": 1000, "time": "01:03:27", "cer_valid": 0.033, "wer_valid": 0.1162, "cer_lahaja": 0.0902, "wer_lahaja": 0.2919}
+{"step": 8000, "hours_seen": 100.571, "cer": 0.0323, "wer": 0.1146, "n_eval": 1000, "time": "01:13:23", "cer_valid": 0.0323, "wer_valid": 0.1146, "cer_lahaja": 0.0894, "wer_lahaja": 0.2875}
+{"step": 9096, "hours_seen": 114.359, "cer": 0.0322, "wer": 0.1144, "n_eval": 1000, "time": "01:19:06", "cer_valid": 0.0322, "wer_valid": 0.1144, "cer_lahaja": 0.0905, "wer_lahaja": 0.2921}

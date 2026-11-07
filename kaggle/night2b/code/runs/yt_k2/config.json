@@ -1,0 +1,51 @@
+{
+  "model": {
+    "n_units": 63,
+    "d_model": 768,
+    "n_layers": 6,
+    "n_heads": 12,
+    "ff_mult": 4,
+    "conv_kernel": 15,
+    "dropout": 0.1,
+    "unfreeze_top_k": 2,
+    "amp": "fp16"
+  },
+  "args": {
+    "run": "yt_k2",
+    "train": [
+      "/kaggle/working/yodas/yodas_hi_0000.parquet",
+      "/kaggle/working/yodas/yodas_hi_0140.parquet",
+      "/kaggle/working/yodas/yodas_hi_0280.parquet"
+    ],
+    "eval": [
+      "/tmp/data/kathbath/hindi/valid-00000-of-00002.parquet"
+    ],
+    "eval_set": [
+      [
+        "lahaja",
+        "/tmp/data/lahaja/data/*.parquet"
+      ]
+    ],
+    "eval_clips": 1000,
+    "eval_on_train": false,
+    "max_train_clips": null,
+    "units": "/kaggle/working/units_char.json",
+    "unit_type": "token",
+    "unfreeze": 2,
+    "epochs": 2.557,
+    "batch_seconds": 48,
+    "lr": 0.001,
+    "enc_lr": 5e-05,
+    "warmup": 500,
+    "eval_every": 1000,
+    "workers": 2,
+    "resume": false,
+    "amp": "fp16",
+    "init": null,
+    "eval_only": false,
+    "max_steps": null,
+    "max_minutes": 423.0,
+    "gate_hours": null,
+    "gate_cer": null
+  }
+}

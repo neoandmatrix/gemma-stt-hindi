@@ -1,0 +1,103 @@
+train 2867 clips / 3.97 h | eval 1000 clips | units 66
+Loading weights:   0%|          | 0/1165 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1165/1165 [00:00<00:00, 14067.43it/s]
+2528 steps (316/epoch), trainable 44M
+step 50/2528 | loss 3.782 | 0.63 h seen | 179 s audio/s | lr 2.45e-04 | VRAM 1.55 GiB
+step 100/2528 | loss 2.681 | 1.26 h seen | 191 s audio/s | lr 4.95e-04 | VRAM 1.57 GiB
+step 150/2528 | loss 1.089 | 1.89 h seen | 191 s audio/s | lr 7.45e-04 | VRAM 1.57 GiB
+step 200/2528 | loss 0.885 | 2.51 h seen | 191 s audio/s | lr 9.95e-04 | VRAM 1.58 GiB
+step 250/2528 | loss 0.825 | 3.14 h seen | 191 s audio/s | lr 9.99e-04 | VRAM 1.58 GiB
+step 300/2528 | loss 0.752 | 3.77 h seen | 191 s audio/s | lr 9.96e-04 | VRAM 1.58 GiB
+step 350/2528 | loss 0.675 | 4.40 h seen | 188 s audio/s | lr 9.91e-04 | VRAM 1.58 GiB
+step 400/2528 | loss 0.661 | 5.02 h seen | 191 s audio/s | lr 9.84e-04 | VRAM 1.58 GiB
+== EVAL step 400: CER 0.180 WER 0.583 (1000 clips)
+   ref: पंचायत में खौलते पानी में दो सिक्के डाले गए
+   hyp: पनंचायद में खलते पनी में दो सीके डालेग
+   ref: इस बकाया रकम मेंं ब्याज की राशि भी शामिल है
+   hyp: इसबकाय र कम में ्याज क राशे भी सम
+   ref: इस कार के इंजन को अपग्रेड किया गया था
+   hyp: इस कारतके एंजंन को अब ग्रेट किया गया
+step 450/2528 | loss 0.630 | 5.65 h seen | 75 s audio/s | lr 9.75e-04 | VRAM 1.61 GiB
+step 500/2528 | loss 0.620 | 6.28 h seen | 192 s audio/s | lr 9.64e-04 | VRAM 1.61 GiB
+step 550/2528 | loss 0.619 | 6.91 h seen | 191 s audio/s | lr 9.51e-04 | VRAM 1.61 GiB
+step 600/2528 | loss 0.547 | 7.53 h seen | 191 s audio/s | lr 9.36e-04 | VRAM 1.61 GiB
+step 650/2528 | loss 0.565 | 8.16 h seen | 187 s audio/s | lr 9.20e-04 | VRAM 1.61 GiB
+step 700/2528 | loss 0.480 | 8.79 h seen | 191 s audio/s | lr 9.02e-04 | VRAM 1.61 GiB
+step 750/2528 | loss 0.519 | 9.42 h seen | 191 s audio/s | lr 8.82e-04 | VRAM 1.61 GiB
+step 800/2528 | loss 0.488 | 10.05 h seen | 192 s audio/s | lr 8.61e-04 | VRAM 1.61 GiB
+== EVAL step 800: CER 0.146 WER 0.488 (1000 clips)
+   ref: पंचायत में खौलते पानी में दो सिक्के डाले गए
+   hyp: पंचायतमें खोलते पनी में दोसिके डाले
+   ref: इस बकाया रकम मेंं ब्याज की राशि भी शामिल है
+   hyp: इस बकाया कम में बयाज की राशरी भी सम
+   ref: इस कार के इंजन को अपग्रेड किया गया था
+   hyp: इस कार के अंन को अब क्रेट किया गया
+step 850/2528 | loss 0.499 | 10.68 h seen | 74 s audio/s | lr 8.38e-04 | VRAM 1.61 GiB
+step 900/2528 | loss 0.477 | 11.30 h seen | 191 s audio/s | lr 8.14e-04 | VRAM 1.61 GiB
+step 950/2528 | loss 0.482 | 11.93 h seen | 187 s audio/s | lr 7.89e-04 | VRAM 1.61 GiB
+step 1000/2528 | loss 0.396 | 12.56 h seen | 192 s audio/s | lr 7.63e-04 | VRAM 1.61 GiB
+step 1050/2528 | loss 0.388 | 13.19 h seen | 190 s audio/s | lr 7.36e-04 | VRAM 1.61 GiB
+step 1100/2528 | loss 0.425 | 13.82 h seen | 191 s audio/s | lr 7.08e-04 | VRAM 1.61 GiB
+step 1150/2528 | loss 0.385 | 14.44 h seen | 191 s audio/s | lr 6.79e-04 | VRAM 1.61 GiB
+step 1200/2528 | loss 0.409 | 15.06 h seen | 190 s audio/s | lr 6.49e-04 | VRAM 1.61 GiB
+== EVAL step 1200: CER 0.126 WER 0.433 (1000 clips)
+   ref: पंचायत में खौलते पानी में दो सिक्के डाले गए
+   hyp: पंचायत में खल्ते पानी में दोर सिके डालेह
+   ref: इस बकाया रकम मेंं ब्याज की राशि भी शामिल है
+   hyp: इस बकाय रकम में ब्ाज ी राश्ि भी म
+   ref: इस कार के इंजन को अपग्रेड किया गया था
+   hyp: इस कार के इंजनन को अब क्रेट किया गया
+step 1250/2528 | loss 0.398 | 15.70 h seen | 75 s audio/s | lr 6.20e-04 | VRAM 1.61 GiB
+step 1300/2528 | loss 0.335 | 16.33 h seen | 188 s audio/s | lr 5.89e-04 | VRAM 1.61 GiB
+step 1350/2528 | loss 0.286 | 16.95 h seen | 191 s audio/s | lr 5.59e-04 | VRAM 1.61 GiB
+step 1400/2528 | loss 0.309 | 17.58 h seen | 192 s audio/s | lr 5.29e-04 | VRAM 1.61 GiB
+step 1450/2528 | loss 0.323 | 18.21 h seen | 190 s audio/s | lr 4.98e-04 | VRAM 1.61 GiB
+step 1500/2528 | loss 0.344 | 18.84 h seen | 191 s audio/s | lr 4.68e-04 | VRAM 1.61 GiB
+step 1550/2528 | loss 0.324 | 19.47 h seen | 191 s audio/s | lr 4.39e-04 | VRAM 1.61 GiB
+step 1600/2528 | loss 0.267 | 20.09 h seen | 187 s audio/s | lr 4.10e-04 | VRAM 1.61 GiB
+== EVAL step 1600: CER 0.119 WER 0.411 (1000 clips)
+   ref: पंचायत में खौलते पानी में दो सिक्के डाले गए
+   hyp: पनंचायत में खल्ते पनी में दो सीके डलेै
+   ref: इस बकाया रकम मेंं ब्याज की राशि भी शामिल है
+   hyp: इस बकाय रकम में बयाज की राषशी भी म
+   ref: इस कार के इंजन को अपग्रेड किया गया था
+   hyp: इस कार के इंजन को अब क्रेट किया गया
+step 1650/2528 | loss 0.209 | 20.72 h seen | 74 s audio/s | lr 3.81e-04 | VRAM 1.61 GiB
+step 1700/2528 | loss 0.206 | 21.34 h seen | 190 s audio/s | lr 3.53e-04 | VRAM 1.61 GiB
+step 1750/2528 | loss 0.249 | 21.97 h seen | 192 s audio/s | lr 3.27e-04 | VRAM 1.61 GiB
+step 1800/2528 | loss 0.223 | 22.60 h seen | 191 s audio/s | lr 3.01e-04 | VRAM 1.61 GiB
+step 1850/2528 | loss 0.220 | 23.22 h seen | 191 s audio/s | lr 2.76e-04 | VRAM 1.61 GiB
+step 1900/2528 | loss 0.241 | 23.86 h seen | 188 s audio/s | lr 2.53e-04 | VRAM 1.61 GiB
+step 1950/2528 | loss 0.134 | 24.49 h seen | 191 s audio/s | lr 2.31e-04 | VRAM 1.61 GiB
+step 2000/2528 | loss 0.125 | 25.11 h seen | 191 s audio/s | lr 2.10e-04 | VRAM 1.61 GiB
+== EVAL step 2000: CER 0.119 WER 0.408 (1000 clips)
+   ref: पंचायत में खौलते पानी में दो सिक्के डाले गए
+   hyp: पंचायत में खलते पानी में दो सिके डाले
+   ref: इस बकाया रकम मेंं ब्याज की राशि भी शामिल है
+   hyp: इस बकाय रकम में बयाज की राशि भी म
+   ref: इस कार के इंजन को अपग्रेड किया गया था
+   hyp: इस कार की इंजन को अब गरेट किया गया
+step 2050/2528 | loss 0.131 | 25.74 h seen | 74 s audio/s | lr 1.91e-04 | VRAM 1.61 GiB
+step 2100/2528 | loss 0.163 | 26.37 h seen | 191 s audio/s | lr 1.73e-04 | VRAM 1.61 GiB
+step 2150/2528 | loss 0.140 | 26.99 h seen | 190 s audio/s | lr 1.58e-04 | VRAM 1.61 GiB
+step 2200/2528 | loss 0.144 | 27.63 h seen | 191 s audio/s | lr 1.44e-04 | VRAM 1.61 GiB
+step 2250/2528 | loss 0.099 | 28.25 h seen | 187 s audio/s | lr 1.32e-04 | VRAM 1.61 GiB
+step 2300/2528 | loss 0.082 | 28.88 h seen | 191 s audio/s | lr 1.21e-04 | VRAM 1.61 GiB
+step 2350/2528 | loss 0.095 | 29.51 h seen | 191 s audio/s | lr 1.13e-04 | VRAM 1.61 GiB
+step 2400/2528 | loss 0.085 | 30.14 h seen | 192 s audio/s | lr 1.07e-04 | VRAM 1.61 GiB
+== EVAL step 2400: CER 0.121 WER 0.409 (1000 clips)
+   ref: पंचायत में खौलते पानी में दो सिक्के डाले गए
+   hyp: पंचायद में ख़लते पानी में दोर सिके डाले
+   ref: इस बकाया रकम मेंं ब्याज की राशि भी शामिल है
+   hyp: इस बगकायारगकम में ब्याज की राश्ि भी म
+   ref: इस कार के इंजन को अपग्रेड किया गया था
+   hyp: इस कार की इंजन को अब गरेट किया गया
+step 2450/2528 | loss 0.086 | 30.77 h seen | 74 s audio/s | lr 1.03e-04 | VRAM 1.61 GiB
+step 2500/2528 | loss 0.078 | 31.39 h seen | 190 s audio/s | lr 1.00e-04 | VRAM 1.61 GiB
+== EVAL step 2528: CER 0.120 WER 0.406 (1000 clips)
+   ref: पंचायत में खौलते पानी में दो सिक्के डाले गए
+   hyp: पंचायद में ख़लते पानी में दोर सिके डालेगै
+   ref: इस बकाया रकम मेंं ब्याज की राशि भी शामिल है
+   hyp: इस बकायारगकम में बयाज की राश्र भी म
+   ref: इस कार के इंजन को अपग्रेड किया गया था
+   hyp: इस कार की इंजन को अब गरेट किया गया
+done: 2528 steps, best CER 0.11933430212442045

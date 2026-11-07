@@ -1,0 +1,89 @@
+Fetching 20 files:   0%|          | 0/20 [00:00<?, ?it/s]Fetching 20 files: 100%|██████████| 20/20 [00:00<00:00, 172960.99it/s]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793951714.718415     396 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+239717 clips to relabel (591 h)
+{"gpu": "0", "teacher": "it", "probe_s": {"ref": 25.0, "fp32": 5.7, "fp16": 3.8}, "probe_cer_vs_ref": {"fp32": 0.0019, "fp16": 0.0}, "variant": "fp16", "clips_in": 0, "clips_kept": 0, "h_in": 0.0, "h_kept": 0.0, "drop_script": 0, "drop_cps": 0, "drop_empty": 0, "files_done": 0, "yt_vs_teacher_cer_sum": 0.0}
+probe sample: आ जाओ मंत्रा सचिन वर्मा प्रयत्न में ఏదైతే చేస్తా ఉన్నారो इस विषय में पद्देंदी में पोटी చేసిनार थे अच्छा अच्छा लोग को लगाई की और मोते मारो भी मार थे निज़ाम जब नाइना అంటే निज़ाम खोलो खोलो उधर ही उधर ही उधर ही प्रोजेक्ट आपेशीनटू ये कर्नाटक में टूरिज्म डिपार्टमेंट యొక్క मीटर दूर में कर्मनाटक में परिस्थि
+yodas_yodas_hi_0020 0/4265 | 0.0 h in, 0.0 h kept | 20 s audio/s | yt-vs-teacher CER 0.752
+yodas_yodas_hi_0020 3200/4265 | 7.1 h in, 4.7 h kept | 70 s audio/s | yt-vs-teacher CER 0.589
+yodas_yodas_hi_0060 0/4126 | 10.4 h in, 7.2 h kept | 74 s audio/s | yt-vs-teacher CER 0.548
+yodas_yodas_hi_0060 3200/4126 | 17.5 h in, 12.7 h kept | 87 s audio/s | yt-vs-teacher CER 0.494
+yodas_yodas_hi_0100 0/3740 | 20.3 h in, 15.2 h kept | 91 s audio/s | yt-vs-teacher CER 0.475
+yodas_yodas_hi_0100 3200/3740 | 27.3 h in, 20.8 h kept | 97 s audio/s | yt-vs-teacher CER 0.444
+yodas_yodas_hi_0180 0/3233 | 28.9 h in, 22.3 h kept | 98 s audio/s | yt-vs-teacher CER 0.436
+yodas_yodas_hi_0180 3200/3233 | 36.4 h in, 27.2 h kept | 91 s audio/s | yt-vs-teacher CER 0.457
+yodas_yodas_hi_0220 0/3859 | 36.4 h in, 27.2 h kept | 91 s audio/s | yt-vs-teacher CER 0.458
+yodas_yodas_hi_0220 3200/3859 | 43.7 h in, 31.8 h kept | 91 s audio/s | yt-vs-teacher CER 0.478
+yodas_yodas_hi_0320 0/25200 | 45.7 h in, 33.4 h kept | 91 s audio/s | yt-vs-teacher CER 0.476
+yodas_yodas_hi_0320 3200/25200 | 53.6 h in, 40.9 h kept | 94 s audio/s | yt-vs-teacher CER 0.450
+yodas_yodas_hi_0320 6400/25200 | 62.3 h in, 49.3 h kept | 96 s audio/s | yt-vs-teacher CER 0.427
+yodas_yodas_hi_0320 9600/25200 | 70.5 h in, 57.0 h kept | 97 s audio/s | yt-vs-teacher CER 0.413
+yodas_yodas_hi_0320 12800/25200 | 79.0 h in, 65.3 h kept | 99 s audio/s | yt-vs-teacher CER 0.398
+yodas_yodas_hi_0320 16000/25200 | 87.4 h in, 73.3 h kept | 100 s audio/s | yt-vs-teacher CER 0.387
+yodas_yodas_hi_0320 19200/25200 | 95.6 h in, 81.2 h kept | 101 s audio/s | yt-vs-teacher CER 0.378
+yodas_yodas_hi_0320 22400/25200 | 104.3 h in, 89.5 h kept | 102 s audio/s | yt-vs-teacher CER 0.370
+yodas_yodas_hi_0400 0/27544 | 112.0 h in, 96.8 h kept | 103 s audio/s | yt-vs-teacher CER 0.363
+yodas_yodas_hi_0400 3200/27544 | 119.1 h in, 103.5 h kept | 102 s audio/s | yt-vs-teacher CER 0.362
+yodas_yodas_hi_0400 6400/27544 | 127.5 h in, 111.6 h kept | 103 s audio/s | yt-vs-teacher CER 0.358
+yodas_yodas_hi_0400 9600/27544 | 134.9 h in, 118.5 h kept | 103 s audio/s | yt-vs-teacher CER 0.357
+yodas_yodas_hi_0400 12800/27544 | 143.3 h in, 126.5 h kept | 103 s audio/s | yt-vs-teacher CER 0.354
+yodas_yodas_hi_0400 16000/27544 | 150.6 h in, 133.3 h kept | 103 s audio/s | yt-vs-teacher CER 0.353
+yodas_yodas_hi_0400 19200/27544 | 158.9 h in, 141.2 h kept | 103 s audio/s | yt-vs-teacher CER 0.350
+yodas_yodas_hi_0400 22400/27544 | 166.2 h in, 148.1 h kept | 103 s audio/s | yt-vs-teacher CER 0.350
+yodas_yodas_hi_0400 25600/27544 | 174.4 h in, 155.9 h kept | 103 s audio/s | yt-vs-teacher CER 0.348
+yodas_yodas_hi_0030 0/31913 | 179.5 h in, 160.7 h kept | 103 s audio/s | yt-vs-teacher CER 0.346
+yodas_yodas_hi_0030 3200/31913 | 186.8 h in, 167.8 h kept | 103 s audio/s | yt-vs-teacher CER 0.341
+yodas_yodas_hi_0030 6400/31913 | 195.4 h in, 176.1 h kept | 104 s audio/s | yt-vs-teacher CER 0.335
+yodas_yodas_hi_0030 9600/31913 | 202.7 h in, 183.3 h kept | 104 s audio/s | yt-vs-teacher CER 0.331
+yodas_yodas_hi_0030 12800/31913 | 211.3 h in, 191.7 h kept | 105 s audio/s | yt-vs-teacher CER 0.326
+yodas_yodas_hi_0030 16000/31913 | 218.7 h in, 198.8 h kept | 105 s audio/s | yt-vs-teacher CER 0.322
+yodas_yodas_hi_0030 19200/31913 | 227.2 h in, 207.0 h kept | 105 s audio/s | yt-vs-teacher CER 0.318
+yodas_yodas_hi_0030 22400/31913 | 234.6 h in, 214.1 h kept | 106 s audio/s | yt-vs-teacher CER 0.315
+yodas_yodas_hi_0030 25600/31913 | 243.0 h in, 222.3 h kept | 106 s audio/s | yt-vs-teacher CER 0.311
+yodas_yodas_hi_0030 28800/31913 | 250.4 h in, 229.4 h kept | 106 s audio/s | yt-vs-teacher CER 0.308
+yodas_yodas_hi_0070 0/31557 | 258.7 h in, 237.5 h kept | 107 s audio/s | yt-vs-teacher CER 0.305
+yodas_yodas_hi_0070 3200/31557 | 265.9 h in, 244.5 h kept | 107 s audio/s | yt-vs-teacher CER 0.302
+yodas_yodas_hi_0070 6400/31557 | 274.3 h in, 252.6 h kept | 107 s audio/s | yt-vs-teacher CER 0.299
+yodas_yodas_hi_0070 9600/31557 | 281.6 h in, 259.7 h kept | 108 s audio/s | yt-vs-teacher CER 0.297
+yodas_yodas_hi_0070 12800/31557 | 289.7 h in, 267.6 h kept | 108 s audio/s | yt-vs-teacher CER 0.294
+yodas_yodas_hi_0070 16000/31557 | 297.3 h in, 275.0 h kept | 108 s audio/s | yt-vs-teacher CER 0.292
+yodas_yodas_hi_0070 19200/31557 | 305.3 h in, 282.8 h kept | 108 s audio/s | yt-vs-teacher CER 0.290
+yodas_yodas_hi_0070 22400/31557 | 313.2 h in, 290.5 h kept | 108 s audio/s | yt-vs-teacher CER 0.288
+yodas_yodas_hi_0070 25600/31557 | 320.9 h in, 298.0 h kept | 108 s audio/s | yt-vs-teacher CER 0.286
+yodas_yodas_hi_0070 28800/31557 | 328.8 h in, 305.7 h kept | 109 s audio/s | yt-vs-teacher CER 0.284
+yodas_yodas_hi_0110 0/33822 | 335.9 h in, 312.6 h kept | 109 s audio/s | yt-vs-teacher CER 0.282
+yodas_yodas_hi_0110 3200/33822 | 342.5 h in, 319.1 h kept | 109 s audio/s | yt-vs-teacher CER 0.281
+yodas_yodas_hi_0110 6400/33822 | 350.6 h in, 327.1 h kept | 109 s audio/s | yt-vs-teacher CER 0.280
+yodas_yodas_hi_0110 9600/33822 | 357.4 h in, 333.7 h kept | 109 s audio/s | yt-vs-teacher CER 0.279
+yodas_yodas_hi_0110 12800/33822 | 365.4 h in, 341.6 h kept | 109 s audio/s | yt-vs-teacher CER 0.278
+yodas_yodas_hi_0110 16000/33822 | 372.3 h in, 348.3 h kept | 110 s audio/s | yt-vs-teacher CER 0.277
+yodas_yodas_hi_0110 19200/33822 | 380.1 h in, 356.0 h kept | 110 s audio/s | yt-vs-teacher CER 0.276
+yodas_yodas_hi_0110 22400/33822 | 387.1 h in, 362.8 h kept | 110 s audio/s | yt-vs-teacher CER 0.275
+yodas_yodas_hi_0110 25600/33822 | 394.8 h in, 370.4 h kept | 110 s audio/s | yt-vs-teacher CER 0.274
+yodas_yodas_hi_0110 28800/33822 | 401.9 h in, 377.3 h kept | 110 s audio/s | yt-vs-teacher CER 0.273
+yodas_yodas_hi_0110 32000/33822 | 409.5 h in, 384.8 h kept | 110 s audio/s | yt-vs-teacher CER 0.272
+yodas_yodas_hi_0150 0/34205 | 414.1 h in, 389.4 h kept | 110 s audio/s | yt-vs-teacher CER 0.271
+yodas_yodas_hi_0150 3200/34205 | 421.3 h in, 396.2 h kept | 110 s audio/s | yt-vs-teacher CER 0.270
+yodas_yodas_hi_0150 6400/34205 | 429.8 h in, 404.6 h kept | 110 s audio/s | yt-vs-teacher CER 0.269
+yodas_yodas_hi_0150 9600/34205 | 436.8 h in, 411.5 h kept | 110 s audio/s | yt-vs-teacher CER 0.268
+yodas_yodas_hi_0150 12800/34205 | 445.5 h in, 419.9 h kept | 110 s audio/s | yt-vs-teacher CER 0.266
+yodas_yodas_hi_0150 16000/34205 | 452.5 h in, 426.7 h kept | 110 s audio/s | yt-vs-teacher CER 0.265
+yodas_yodas_hi_0150 19200/34205 | 461.1 h in, 435.1 h kept | 110 s audio/s | yt-vs-teacher CER 0.264
+yodas_yodas_hi_0150 22400/34205 | 468.1 h in, 441.9 h kept | 110 s audio/s | yt-vs-teacher CER 0.263
+yodas_yodas_hi_0150 25600/34205 | 476.9 h in, 450.4 h kept | 110 s audio/s | yt-vs-teacher CER 0.262
+yodas_yodas_hi_0150 28800/34205 | 483.8 h in, 457.1 h kept | 110 s audio/s | yt-vs-teacher CER 0.261
+yodas_yodas_hi_0150 32000/34205 | 492.5 h in, 465.7 h kept | 110 s audio/s | yt-vs-teacher CER 0.260
+yodas_yodas_hi_0190 0/20206 | 497.8 h in, 470.9 h kept | 110 s audio/s | yt-vs-teacher CER 0.260
+yodas_yodas_hi_0190 3200/20206 | 505.2 h in, 477.9 h kept | 110 s audio/s | yt-vs-teacher CER 0.262
+yodas_yodas_hi_0190 6400/20206 | 514.0 h in, 486.4 h kept | 110 s audio/s | yt-vs-teacher CER 0.263
+yodas_yodas_hi_0190 9600/20206 | 521.4 h in, 493.6 h kept | 111 s audio/s | yt-vs-teacher CER 0.265
+yodas_yodas_hi_0190 12800/20206 | 530.0 h in, 501.8 h kept | 110 s audio/s | yt-vs-teacher CER 0.267
+yodas_yodas_hi_0190 16000/20206 | 538.1 h in, 509.6 h kept | 110 s audio/s | yt-vs-teacher CER 0.268
+yodas_yodas_hi_0190 19200/20206 | 546.1 h in, 517.3 h kept | 110 s audio/s | yt-vs-teacher CER 0.270
+yodas_yodas_hi_0230 0/16047 | 549.3 h in, 520.4 h kept | 110 s audio/s | yt-vs-teacher CER 0.270
+yodas_yodas_hi_0230 3200/16047 | 556.9 h in, 527.6 h kept | 110 s audio/s | yt-vs-teacher CER 0.270
+yodas_yodas_hi_0230 6400/16047 | 565.8 h in, 536.0 h kept | 111 s audio/s | yt-vs-teacher CER 0.270
+yodas_yodas_hi_0230 9600/16047 | 573.7 h in, 543.4 h kept | 111 s audio/s | yt-vs-teacher CER 0.270
+yodas_yodas_hi_0230 12800/16047 | 582.1 h in, 551.2 h kept | 111 s audio/s | yt-vs-teacher CER 0.270
+yodas_yodas_hi_0230 16000/16047 | 591.1 h in, 559.8 h kept | 111 s audio/s | yt-vs-teacher CER 0.270
+done {"gpu": "0", "teacher": "it", "probe_s": {"ref": 25.0, "fp32": 5.7, "fp16": 3.8}, "probe_cer_vs_ref": {"fp32": 0.0019, "fp16": 0.0}, "variant": "fp16", "clips_in": 239717, "clips_kept": 224070, "h_in": 591.1170277777674, "h_kept": 559.8106294444046, "drop_script": 7272, "drop_cps": 8361, "drop_empty": 14, "files_done": 13, "yt_vs_teacher_cer_sum": 64700.92879725512, "timed_out": false}

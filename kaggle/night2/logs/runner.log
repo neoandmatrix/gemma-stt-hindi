@@ -1,0 +1,8 @@
+[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code
+[   0.3 min] ffmpeg /usr/bin/ffmpeg, libsndfile 1.2.2, clips as opus
+[   0.4 min] torch 2.11.0+cu128, 2 GPU(s), 4 CPUs
+[   1.0 min] Kathbath / Lahaja / EmbeddingGemma 2 ready
+[   6.1 min] YODAS shard 0000 (try 1): {"videos": 18, "clips_kept": 474, "clips_dropped": 499, "h_kept": 1.14, "h_dropped": 0.58, "errors": 1} in 6 min
+[  15.8 min] YODAS shard 0280 (try 1): {"videos": 65, "clips_kept": 1319, "clips_dropped": 1238, "h_kept": 3.46, "h_dropped": 1.68, "errors": 1} in 15 min
+[  44.5 min] YODAS shard 0140 (try 1): {"videos": 49, "clips_kept": 4458, "clips_dropped": 3210, "h_kept": 11.93, "h_dropped": 5.77, "errors": 1} in 44 min
+[  44.5 min] data ready at 0.74 h: YODAS 17 h in 3 files, Kathbath 20 h

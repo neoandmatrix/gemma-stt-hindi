@@ -1,0 +1,18 @@
+{
+ "gpu": "1",
+ "probe_s_default": 18.5,
+ "probe_s_fp16": 4.1,
+ "probe_fp16_vs_default_cer": 0.0113,
+ "fp16": true,
+ "clips_in": 173257,
+ "clips_kept": 153012,
+ "h_in": 434.50407694441907,
+ "h_kept": 387.67284722219983,
+ "drop_script": 8096,
+ "drop_cps": 12116,
+ "drop_empty": 33,
+ "files_done": 6,
+ "yt_vs_hima_cer_sum": 47468.17835787715,
+ "timed_out": true,
+ "yt_vs_hima_cer": 0.274
+}

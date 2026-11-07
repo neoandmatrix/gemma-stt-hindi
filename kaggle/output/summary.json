@@ -1,0 +1,80 @@
+{
+  "h20_k0": {
+    "final": {
+      "step": 7870,
+      "hours_seen": 98.946,
+      "cer": 0.0752,
+      "wer": 0.2662,
+      "n_eval": 1000,
+      "time": "08:23:59",
+      "cer_valid": 0.0752,
+      "wer_valid": 0.2662,
+      "cer_lahaja": 0.1641,
+      "wer_lahaja": 0.4996
+    },
+    "best": {
+      "step": 7870,
+      "hours_seen": 98.946,
+      "cer": 0.0752,
+      "wer": 0.2662,
+      "n_eval": 1000,
+      "time": "08:23:59",
+      "cer_valid": 0.0752,
+      "wer_valid": 0.2662,
+      "cer_lahaja": 0.1641,
+      "wer_lahaja": 0.4996
+    }
+  },
+  "h20_k2": {
+    "final": {
+      "step": 7870,
+      "hours_seen": 98.946,
+      "cer": 0.0711,
+      "wer": 0.2502,
+      "n_eval": 1000,
+      "time": "08:32:54",
+      "cer_valid": 0.0711,
+      "wer_valid": 0.2502,
+      "cer_lahaja": 0.1597,
+      "wer_lahaja": 0.4724
+    },
+    "best": {
+      "step": 6000,
+      "hours_seen": 75.443,
+      "cer": 0.0701,
+      "wer": 0.2474,
+      "n_eval": 1000,
+      "time": "08:24:54",
+      "cer_valid": 0.0701,
+      "wer_valid": 0.2474,
+      "cer_lahaja": 0.1578,
+      "wer_lahaja": 0.472
+    }
+  },
+  "h50_k2": {
+    "final": {
+      "step": 11379,
+      "hours_seen": 143.059,
+      "cer": 0.0627,
+      "wer": 0.2216,
+      "n_eval": 1000,
+      "time": "12:41:33",
+      "cer_valid": 0.0627,
+      "wer_valid": 0.2216,
+      "cer_lahaja": 0.1627,
+      "wer_lahaja": 0.4951
+    },
+    "best": {
+      "step": 11379,
+      "hours_seen": 143.059,
+      "cer": 0.0627,
+      "wer": 0.2216,
+      "n_eval": 1000,
+      "time": "12:41:33",
+      "cer_valid": 0.0627,
+      "wer_valid": 0.2216,
+      "cer_lahaja": 0.1627,
+      "wer_lahaja": 0.4951
+    }
+  }
+}

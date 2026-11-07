@@ -1,0 +1,13 @@
+{
+  "id": "YOUR_KAGGLE_USER/gemma-stt-hindi-score",
+  "title": "gemma-stt-hindi-score",
+  "code_file": "run_score.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["YOUR_KAGGLE_USER/gemma-stt-hindi-code", "YOUR_KAGGLE_USER/gemma-stt-hindi-testsets"],
+  "competition_sources": [],
+  "kernel_sources": ["YOUR_KAGGLE_USER/gemma-stt-hindi-ladder"]
+}

@@ -1,0 +1,52 @@
+{
+  "model": {
+    "n_units": 70,
+    "d_model": 768,
+    "n_layers": 6,
+    "n_heads": 12,
+    "ff_mult": 4,
+    "conv_kernel": 15,
+    "dropout": 0.1,
+    "unfreeze_top_k": 0,
+    "amp": "fp16"
+  },
+  "args": {
+    "run": "h20_k0",
+    "train": [
+      "/tmp/data/kathbath/hindi/train-00000-of-00032.parquet",
+      "/tmp/data/kathbath/hindi/train-00001-of-00032.parquet",
+      "/tmp/data/kathbath/hindi/train-00002-of-00032.parquet",
+      "/tmp/data/kathbath/hindi/train-00003-of-00032.parquet",
+      "/tmp/data/kathbath/hindi/train-00004-of-00032.parquet"
+    ],
+    "eval": [
+      "/tmp/data/kathbath/hindi/valid-00000-of-00002.parquet"
+    ],
+    "eval_set": [
+      [
+        "lahaja",
+        "/tmp/data/lahaja/data/*.parquet"
+      ]
+    ],
+    "eval_clips": 1000,
+    "eval_on_train": false,
+    "max_train_clips": null,
+    "units": null,
+    "unit_type": "char",
+    "unfreeze": 0,
+    "epochs": 5.0,
+    "batch_seconds": 48,
+    "lr": 0.001,
+    "enc_lr": 5e-05,
+    "warmup": 300,
+    "eval_every": 1000,
+    "workers": 2,
+    "resume": false,
+    "amp": "fp16",
+    "init": null,
+    "eval_only": false,
+    "max_steps": null,
+    "gate_hours": null,
+    "gate_cer": null
+  }
+}

@@ -1,0 +1,44 @@
+[{"stream_name":"stderr","time":7.395265946,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":7.395331492,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":7.395338285,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":7.395342909,"data":"datasets 4.8.5 requires huggingface-hub\u003c2.0,\u003e=0.25.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":7.395347297,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":7.395351988,"data":"transformers 5.16.1 requires huggingface-hub\u003c2.0,\u003e=1.5.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":7.395355784,"data":"gradio-client 2.6.1 requires huggingface-hub\u003c2.0,\u003e=0.19.3, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":7.39536056,"data":"tokenizers 0.23.1 requires huggingface-hub\u003c2.0,\u003e=0.16.4, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":8.459161761,"data":"[   0.1 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code, 4 CPUs, 1126 GB free -\u003e 4 workers\n"}
+,{"stream_name":"stderr","time":9.000198684,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":145.609458879,"data":"[   2.4 min] w0 shard 0020: downloaded in 2 min\n"}
+,{"stream_name":"stdout","time":145.726939383,"data":"[   2.4 min] w3 shard 0180: downloaded in 2 min\n"}
+,{"stream_name":"stdout","time":155.381702439,"data":"[   2.6 min] w1 shard 0060: downloaded in 2 min\n"}
+,{"stream_name":"stdout","time":155.481509012,"data":"[   2.6 min] w2 shard 0100: downloaded in 2 min\n"}
+,{"stream_name":"stdout","time":12874.141640042,"data":"[ 214.6 min] w0 shard 0020: {\"videos\": 687, \"clips_kept\": 30453, \"clips_dropped\": 31174, \"h_kept\": 80.77, \"h_dropped\": 41.54, \"errors\": 0} in 212 min\n"}
+,{"stream_name":"stdout","time":12926.517802459,"data":"[ 215.4 min] w0 shard 0220: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":12961.222303397,"data":"[ 216.0 min] w1 shard 0060: {\"videos\": 726, \"clips_kept\": 33187, \"clips_dropped\": 28735, \"h_kept\": 83.61, \"h_dropped\": 39.64, \"errors\": 0} in 213 min\n"}
+,{"stream_name":"stdout","time":13028.524443803,"data":"[ 217.1 min] w1 shard 0260: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":13200.848240862,"data":"[ 220.0 min] w3 shard 0180: {\"videos\": 676, \"clips_kept\": 32927, \"clips_dropped\": 25548, \"h_kept\": 85.84, \"h_dropped\": 39.56, \"errors\": 0} in 218 min\n"}
+,{"stream_name":"stdout","time":13270.298121336,"data":"[ 221.2 min] w3 shard 0320: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":13947.440112534,"data":"[ 232.4 min] w2 shard 0100: {\"videos\": 713, \"clips_kept\": 35083, \"clips_dropped\": 28733, \"h_kept\": 88.7, \"h_dropped\": 41.33, \"errors\": 0} in 230 min\n"}
+,{"stream_name":"stdout","time":14013.218762978,"data":"[ 233.5 min] w2 shard 0360: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":26218.10380125,"data":"[ 437.0 min] w3 shard 0320: {\"videos\": 777, \"clips_kept\": 30474, \"clips_dropped\": 26015, \"h_kept\": 79.9, \"h_dropped\": 36.33, \"errors\": 0} in 216 min\n"}
+,{"stream_name":"stdout","time":26273.8409119,"data":"[ 437.9 min] w3 shard 0400: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":26290.380425203,"data":"[ 438.2 min] w0 shard 0220: {\"videos\": 666, \"clips_kept\": 32457, \"clips_dropped\": 26787, \"h_kept\": 85.31, \"h_dropped\": 41.1, \"errors\": 0} in 223 min\n"}
+,{"stream_name":"stdout","time":26357.727659446,"data":"[ 439.3 min] w0 shard 0040: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":26457.88698315,"data":"[ 441.0 min] w2 shard 0360: {\"videos\": 611, \"clips_kept\": 28220, \"clips_dropped\": 29159, \"h_kept\": 71.87, \"h_dropped\": 42.82, \"errors\": 0} in 207 min\n"}
+,{"stream_name":"stdout","time":26509.722877656,"data":"[ 441.8 min] w1 shard 0260: {\"videos\": 781, \"clips_kept\": 32661, \"clips_dropped\": 28880, \"h_kept\": 85.66, \"h_dropped\": 43.66, \"errors\": 0} in 225 min\n"}
+,{"stream_name":"stdout","time":26527.402495892,"data":"[ 442.1 min] w2 shard 0080: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":26581.361546381,"data":"[ 443.0 min] w1 shard 0120: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":38574.003787409,"data":"[ 642.9 min] w3 shard 0400: {\"videos\": 620, \"clips_kept\": 27544, \"clips_dropped\": 30906, \"h_kept\": 67.58, \"h_dropped\": 43.21, \"errors\": 0} in 205 min\n"}
+,{"stream_name":"stdout","time":38643.085237974,"data":"[ 644.0 min] w3 shard 0200: downloaded in 1 min\n"}
+,{"stream_name":"stdout","time":39585.599565045,"data":"[ 659.7 min] w1 shard 0120: {\"videos\": 779, \"clips_kept\": 33610, \"clips_dropped\": 28941, \"h_kept\": 79.63, \"h_dropped\": 41.71, \"errors\": 0} in 217 min\n"}
+,{"stream_name":"stdout","time":39611.608165177,"data":"[ 660.2 min] w0 shard 0040: {\"videos\": 922, \"clips_kept\": 32615, \"clips_dropped\": 29633, \"h_kept\": 81.85, \"h_dropped\": 43.21, \"errors\": 0} in 221 min\n"}
+,{"stream_name":"stdout","time":39743.577580015,"data":"[ 662.4 min] w2 shard 0080: {\"videos\": 820, \"clips_kept\": 34092, \"clips_dropped\": 24372, \"h_kept\": 86.05, \"h_dropped\": 39.8, \"errors\": 0} in 220 min\n"}
+,{"stream_name":"stdout","time":39835.453449323,"data":"[ 663.9 min] w3 shard 0200: {\"videos\": 51, \"clips_kept\": 2395, \"clips_dropped\": 5092, \"h_kept\": 5.71, \"h_dropped\": 7.2, \"errors\": 0, \"stopped_at_time_limit\": 1} in 20 min\n"}
+,{"stream_name":"stdout","time":39836.544799956,"data":"[ 663.9 min] done: 13 shard files, 982 h of clips, 10.6 GB\n"}
+,{"stream_name":"stderr","time":39839.671608043,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":39839.671648678,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":39840.068532218,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":39840.068568654,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":39841.967059375,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":39843.554048343,"data":"[NbConvertApp] Writing 295954 bytes to __results__.html\n"}
+]

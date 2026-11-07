@@ -1,0 +1,20 @@
+{
+  "id": "YOUR_KAGGLE_USER/gemma-stt-hindi-n7",
+  "title": "gemma-stt-hindi-n7",
+  "code_file": "run_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-code"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-yodas-prep",
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-yodas-prep2",
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-ladder",
+    "YOUR_KAGGLE_USER/gemma-stt-hindi-n6"
+  ]
+}

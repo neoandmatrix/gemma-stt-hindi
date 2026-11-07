@@ -1,0 +1,26 @@
+[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code
+[   0.3 min] ffmpeg /usr/bin/ffmpeg, libsndfile 1.2.2, clips as opus
+[   0.5 min] torch 2.11.0+cu128, 2 GPU(s), 4 CPUs
+[   0.5 min] disk free in /tmp: 1126 GB -> 3 shard(s) at a time
+[   2.7 min] YODAS shard 0280: 8.6 GB downloaded in 2 min
+[   2.7 min] YODAS shard 0000: 8.6 GB downloaded in 2 min
+[   2.7 min] YODAS shard 0140: 8.6 GB downloaded in 2 min
+[   3.0 min] Kathbath / Lahaja / EmbeddingGemma 2 ready
+[ 153.0 min] YODAS shard 0140: {"videos": 271, "clips_kept": 11689, "clips_dropped": 9504, "h_kept": 30.06, "h_dropped": 16.13, "errors": 0, "stopped_at_time_limit": 1} in 150 min
+[ 156.3 min] YODAS shard 0280: {"videos": 340, "clips_kept": 12667, "clips_dropped": 12102, "h_kept": 31.96, "h_dropped": 16.14, "errors": 0, "stopped_at_time_limit": 1} in 154 min
+[ 156.3 min] YODAS shard 0000: {"videos": 229, "clips_kept": 11705, "clips_dropped": 8338, "h_kept": 31.66, "h_dropped": 12.99, "errors": 0, "stopped_at_time_limit": 1} in 154 min
+[ 156.3 min] data ready at 2.61 h: YODAS 94 h in 3 files, Kathbath 20 h
+[ 156.3 min] units: 61 chars
+[ 156.3 min] plan: GPU0 YODAS 423 min then Kathbath 80 min | GPU1 mixed 513 min
+[ 156.3 min] start yt_k2 on GPU 0
+[ 156.3 min] start mix_k2 on GPU 1
+[ 206.3 min] mix_k2 killed (no log output for 30 min)
+[ 206.3 min] yt_k2 killed (no log output for 30 min)
+[ 206.3 min] yt_k2 exited with -15
+[ 206.3 min] mix_k2 exited with -9
+[ 206.3 min] start yt_kb_k2 on GPU 0
+[ 228.3 min] yt_kb_k2 exited with 0
+[ 228.3 min] SUMMARY mix_k2: best valid CER 0.133 WER 0.425 | lahaja CER 0.227 | 12.829 h seen
+[ 228.3 min] SUMMARY yt_k2: best valid CER 0.152 WER 0.469 | lahaja CER 0.239 | 12.88 h seen
+[ 228.3 min] SUMMARY yt_kb_k2: best valid CER 0.075 WER 0.263 | lahaja CER 0.161 | 37.716 h seen
+[ 228.3 min] done

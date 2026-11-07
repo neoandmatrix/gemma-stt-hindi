@@ -1,0 +1,26 @@
+dev_kathbath (n=400) greedy: CER 5.01% WER 18.06%
+dev_lahaja (n=400) greedy: CER 7.83% WER 23.62%
+alpha 0.2 beta 0.0: kathbath CER 4.36% WER 14.95%  lahaja CER 7.08% WER 19.58%  | mean WER 17.27% (3 s)
+alpha 0.2 beta 1.0: kathbath CER 4.45% WER 15.54%  lahaja CER 6.99% WER 19.93%  | mean WER 17.73% (2 s)
+alpha 0.2 beta 2.0: kathbath CER 4.47% WER 16.17%  lahaja CER 7.04% WER 20.70%  | mean WER 18.43% (2 s)
+alpha 0.2 beta 3.0: kathbath CER 4.53% WER 16.67%  lahaja CER 7.29% WER 22.02%  | mean WER 19.34% (2 s)
+alpha 0.4 beta 0.0: kathbath CER 4.20% WER 14.22%  lahaja CER 6.98% WER 18.62%  | mean WER 16.42% (2 s)
+alpha 0.4 beta 1.0: kathbath CER 4.18% WER 14.51%  lahaja CER 6.97% WER 18.82%  | mean WER 16.67% (2 s)
+alpha 0.4 beta 2.0: kathbath CER 4.29% WER 15.06%  lahaja CER 7.03% WER 19.55%  | mean WER 17.31% (2 s)
+alpha 0.4 beta 3.0: kathbath CER 4.35% WER 15.52%  lahaja CER 7.01% WER 20.11%  | mean WER 17.82% (2 s)
+alpha 0.6 beta 0.0: kathbath CER 4.31% WER 13.91%  lahaja CER 7.34% WER 18.67%  | mean WER 16.29% (2 s)
+alpha 0.6 beta 1.0: kathbath CER 4.19% WER 13.99%  lahaja CER 7.11% WER 18.58%  | mean WER 16.28% (2 s)
+alpha 0.6 beta 2.0: kathbath CER 4.11% WER 14.22%  lahaja CER 7.10% WER 18.72%  | mean WER 16.47% (2 s)
+alpha 0.6 beta 3.0: kathbath CER 4.28% WER 14.79%  lahaja CER 7.08% WER 19.08%  | mean WER 16.93% (2 s)
+alpha 0.8 beta 0.0: kathbath CER 4.50% WER 14.49%  lahaja CER 7.98% WER 20.04%  | mean WER 17.27% (2 s)
+alpha 0.8 beta 1.0: kathbath CER 4.43% WER 14.39%  lahaja CER 7.63% WER 19.15%  | mean WER 16.77% (2 s)
+alpha 0.8 beta 2.0: kathbath CER 4.28% WER 14.07%  lahaja CER 7.34% WER 18.87%  | mean WER 16.47% (2 s)
+alpha 0.8 beta 3.0: kathbath CER 4.12% WER 13.99%  lahaja CER 7.25% WER 18.95%  | mean WER 16.47% (2 s)
+alpha 1.0 beta 0.0: kathbath CER 5.07% WER 17.43%  lahaja CER 8.99% WER 23.33%  | mean WER 20.38% (2 s)
+alpha 1.0 beta 1.0: kathbath CER 4.90% WER 16.21%  lahaja CER 8.62% WER 21.87%  | mean WER 19.04% (2 s)
+alpha 1.0 beta 2.0: kathbath CER 4.69% WER 15.12%  lahaja CER 8.24% WER 20.77%  | mean WER 17.95% (2 s)
+alpha 1.0 beta 3.0: kathbath CER 4.52% WER 14.60%  lahaja CER 7.75% WER 19.87%  | mean WER 17.23% (2 s)
+best on dev: alpha 0.6 beta 1.0 (mean WER 16.28%)
+test_lahaja: greedy CER 6.39% WER 21.25% -> LM CER 5.38% WER 15.85%
+test_mine: greedy CER 26.84% WER 53.12% -> LM CER 25.31% WER 40.62%
+test_monsoon_hi: greedy CER 13.53% WER 32.86% -> LM CER 13.29% WER 26.48%

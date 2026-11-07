@@ -1,0 +1,28 @@
+[   0.1 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code, 4 CPUs, 1126 GB free -> 4 workers
+[   2.4 min] w0 shard 0020: downloaded in 2 min
+[   2.4 min] w3 shard 0180: downloaded in 2 min
+[   2.6 min] w1 shard 0060: downloaded in 2 min
+[   2.6 min] w2 shard 0100: downloaded in 2 min
+[ 214.6 min] w0 shard 0020: {"videos": 687, "clips_kept": 30453, "clips_dropped": 31174, "h_kept": 80.77, "h_dropped": 41.54, "errors": 0} in 212 min
+[ 215.4 min] w0 shard 0220: downloaded in 1 min
+[ 216.0 min] w1 shard 0060: {"videos": 726, "clips_kept": 33187, "clips_dropped": 28735, "h_kept": 83.61, "h_dropped": 39.64, "errors": 0} in 213 min
+[ 217.1 min] w1 shard 0260: downloaded in 1 min
+[ 220.0 min] w3 shard 0180: {"videos": 676, "clips_kept": 32927, "clips_dropped": 25548, "h_kept": 85.84, "h_dropped": 39.56, "errors": 0} in 218 min
+[ 221.2 min] w3 shard 0320: downloaded in 1 min
+[ 232.4 min] w2 shard 0100: {"videos": 713, "clips_kept": 35083, "clips_dropped": 28733, "h_kept": 88.7, "h_dropped": 41.33, "errors": 0} in 230 min
+[ 233.5 min] w2 shard 0360: downloaded in 1 min
+[ 437.0 min] w3 shard 0320: {"videos": 777, "clips_kept": 30474, "clips_dropped": 26015, "h_kept": 79.9, "h_dropped": 36.33, "errors": 0} in 216 min
+[ 437.9 min] w3 shard 0400: downloaded in 1 min
+[ 438.2 min] w0 shard 0220: {"videos": 666, "clips_kept": 32457, "clips_dropped": 26787, "h_kept": 85.31, "h_dropped": 41.1, "errors": 0} in 223 min
+[ 439.3 min] w0 shard 0040: downloaded in 1 min
+[ 441.0 min] w2 shard 0360: {"videos": 611, "clips_kept": 28220, "clips_dropped": 29159, "h_kept": 71.87, "h_dropped": 42.82, "errors": 0} in 207 min
+[ 441.8 min] w1 shard 0260: {"videos": 781, "clips_kept": 32661, "clips_dropped": 28880, "h_kept": 85.66, "h_dropped": 43.66, "errors": 0} in 225 min
+[ 442.1 min] w2 shard 0080: downloaded in 1 min
+[ 443.0 min] w1 shard 0120: downloaded in 1 min
+[ 642.9 min] w3 shard 0400: {"videos": 620, "clips_kept": 27544, "clips_dropped": 30906, "h_kept": 67.58, "h_dropped": 43.21, "errors": 0} in 205 min
+[ 644.0 min] w3 shard 0200: downloaded in 1 min
+[ 659.7 min] w1 shard 0120: {"videos": 779, "clips_kept": 33610, "clips_dropped": 28941, "h_kept": 79.63, "h_dropped": 41.71, "errors": 0} in 217 min
+[ 660.2 min] w0 shard 0040: {"videos": 922, "clips_kept": 32615, "clips_dropped": 29633, "h_kept": 81.85, "h_dropped": 43.21, "errors": 0} in 221 min
+[ 662.4 min] w2 shard 0080: {"videos": 820, "clips_kept": 34092, "clips_dropped": 24372, "h_kept": 86.05, "h_dropped": 39.8, "errors": 0} in 220 min
+[ 663.9 min] w3 shard 0200: {"videos": 51, "clips_kept": 2395, "clips_dropped": 5092, "h_kept": 5.71, "h_dropped": 7.2, "errors": 0, "stopped_at_time_limit": 1} in 20 min
+[ 663.9 min] done: 13 shard files, 982 h of clips, 10.6 GB

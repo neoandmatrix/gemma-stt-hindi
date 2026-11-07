@@ -1,0 +1,33 @@
+[{"stream_name":"stdout","time":2.977728915,"data":"[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code\n"}
+,{"stream_name":"stderr","time":21.17846015,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":21.17849541,"data":"datasets 4.8.5 requires huggingface-hub\u003c2.0,\u003e=0.25.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":21.178501469,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":39.265393901,"data":"[   0.6 min] torch 2.11.0+cu130, 2 GPU(s), 4 CPUs\n"}
+,{"stream_name":"stderr","time":76.702368031,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:02\u003c00:07,  2.63s/it]\rFetching 4 files: 100%|██████████| 4/4 [00:03\u003c00:00,  1.46it/s]\rFetching 4 files: 100%|██████████| 4/4 [00:03\u003c00:00,  1.21it/s]\n"}
+,{"stream_name":"stderr","time":89.295565226,"data":"\rFetching 15 files:   0%|          | 0/15 [00:00\u003c?, ?it/s]\rFetching 15 files:  20%|██        | 3/15 [00:00\u003c00:00, 28.85it/s]\rFetching 15 files:  87%|████████▋ | 13/15 [00:12\u003c00:02,  1.02s/it]\rFetching 15 files: 100%|██████████| 15/15 [00:12\u003c00:00,  1.20it/s]\n"}
+,{"stream_name":"stdout","time":89.296324187,"data":"[   1.5 min] Kathbath / Lahaja / EmbeddingGemma 2 downloaded\n"}
+,{"stream_name":"stdout","time":333.564995535,"data":"[   5.5 min] data ready at 0.09 h: YODAS 1810 h in 25 files, Kathbath 48 h, 1002 GB disk left\n"}
+,{"stream_name":"stdout","time":418.10676894,"data":"[   7.0 min] hima labels from /kaggle/input/notebooks/YOUR_KAGGLE_USER/gemma-stt-hindi-ladder/relabel_text.parquet: 303170 clips, 780 h rebuilt in 13 files at 0.12 h\n"}
+,{"stream_name":"stdout","time":516.868326836,"data":"[   8.6 min] it labels from /kaggle/input/notebooks/YOUR_KAGGLE_USER/gemma-stt-hindi-n6/it_relabel_text.parquet: 387308 clips, 970 h rebuilt in 25 files at 0.14 h\n"}
+,{"stream_name":"stdout","time":533.773898583,"data":"[   8.9 min] units: 66 chars\n"}
+,{"stream_name":"stdout","time":533.774125922,"data":"[   8.9 min] plan: each GPU 605 min on 1750 h (Hima 780 + it 970) then Kathbath 45 min (GPU0 top-2, GPU1 top-4)\n"}
+,{"stream_name":"stdout","time":533.777745465,"data":"[   8.9 min] start all_k2 on GPU 0\n"}
+,{"stream_name":"stdout","time":533.778207742,"data":"[   8.9 min] start all_k4 on GPU 1\n"}
+,{"stream_name":"stdout","time":36953.995028951,"data":"[ 615.9 min] all_k2 exited with 0\n"}
+,{"stream_name":"stdout","time":36953.997561662,"data":"[ 615.9 min] all_k4 exited with 0\n"}
+,{"stream_name":"stdout","time":36953.997569186,"data":"[ 615.9 min] start all_kb_k2 on GPU 0\n"}
+,{"stream_name":"stdout","time":36953.997572632,"data":"[ 615.9 min] start all_kb_k4 on GPU 1\n"}
+,{"stream_name":"stdout","time":39774.013121377,"data":"[ 662.9 min] all_kb_k2 exited with 0\n"}
+,{"stream_name":"stdout","time":39774.01361277,"data":"[ 662.9 min] all_kb_k4 exited with 0\n"}
+,{"stream_name":"stdout","time":39786.305654452,"data":"[ 663.1 min] SUMMARY all_k2: best valid CER 0.049 WER 0.179 | lahaja CER 0.076 | 1841.534 h seen\n"}
+,{"stream_name":"stdout","time":39786.305696297,"data":"[ 663.1 min] SUMMARY all_k4: best valid CER 0.050 WER 0.185 | lahaja CER 0.081 | 1508.177 h seen\n"}
+,{"stream_name":"stdout","time":39786.305876701,"data":"[ 663.1 min] SUMMARY all_kb_k2: best valid CER 0.033 WER 0.118 | lahaja CER 0.086 | 100.571 h seen\n"}
+,{"stream_name":"stdout","time":39786.305991421,"data":"[ 663.1 min] SUMMARY all_kb_k4: best valid CER 0.032 WER 0.114 | lahaja CER 0.090 | 114.359 h seen\n"}
+,{"stream_name":"stdout","time":39786.306101211,"data":"[ 663.1 min] done\n"}
+,{"stream_name":"stderr","time":39789.813170267,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":39789.813200033,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":39790.182349081,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":39790.182377003,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":39791.144515165,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":39792.562416748,"data":"[NbConvertApp] Writing 331350 bytes to __results__.html\n"}
+]

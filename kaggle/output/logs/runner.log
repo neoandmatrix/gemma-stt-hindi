@@ -1,0 +1,20 @@
+[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code
+[   0.6 min] torch 2.11.0+cu128, 2 GPU(s): ['Tesla T4', 'Tesla T4']
+[   1.6 min] data ready: 12 train shards
+[   1.6 min] start h20_k0 on GPU 0
+[   1.6 min] start h20_k2 on GPU 1
+[  30.9 min] h20_k0 exited with 0
+[  39.8 min] h20_k2 exited with 0
+[  39.8 min] SUMMARY h20_k0: best valid CER 0.075 WER 0.266 | lahaja CER 0.164 | 98.946 h seen
+[  39.8 min] SUMMARY h20_k2: best valid CER 0.070 WER 0.247 | lahaja CER 0.158 | 75.443 h seen
+[  39.8 min] start h50_k0 on GPU 0
+[  39.8 min] start h50_k2 on GPU 1
+[ 241.1 min] h50_k0 exited with -9
+[ 288.5 min] h50_k2 exited with 0
+[ 288.5 min] SUMMARY h20_k0: best valid CER 0.075 WER 0.266 | lahaja CER 0.164 | 98.946 h seen
+[ 288.5 min] SUMMARY h20_k2: best valid CER 0.070 WER 0.247 | lahaja CER 0.158 | 75.443 h seen
+[ 288.5 min] SUMMARY h50_k2: best valid CER 0.063 WER 0.222 | lahaja CER 0.163 | 143.059 h seen
+[ 288.5 min] SUMMARY h20_k0: best valid CER 0.075 WER 0.266 | lahaja CER 0.164 | 98.946 h seen
+[ 288.5 min] SUMMARY h20_k2: best valid CER 0.070 WER 0.247 | lahaja CER 0.158 | 75.443 h seen
+[ 288.5 min] SUMMARY h50_k2: best valid CER 0.063 WER 0.222 | lahaja CER 0.163 | 143.059 h seen
+[ 288.5 min] done

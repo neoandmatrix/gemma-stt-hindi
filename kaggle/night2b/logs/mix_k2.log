@@ -1,0 +1,69 @@
+train 50393 clips / 113.47 h | eval valid 1000, lahaja 1000 | units 63
+Loading weights:   0%|          | 0/1165 [00:00<?, ?it/s]Loading weights:  22%|██▏       | 251/1165 [00:00<00:00, 2507.22it/s]Loading weights:  43%|████▎     | 502/1165 [00:00<00:00, 2469.46it/s]Loading weights:  64%|██████▍   | 749/1165 [00:00<00:00, 2299.64it/s]Loading weights:  84%|████████▍ | 981/1165 [00:00<00:00, 2230.11it/s]Loading weights: 100%|██████████| 1165/1165 [00:00<00:00, 2246.80it/s]
+22664 steps (8853/epoch), trainable 94M
+step 50/22664 | loss 3.875 | 0.64 h seen | 47 s audio/s | lr 9.80e-05 | VRAM 2.69 GiB
+step 100/22664 | loss 3.457 | 1.28 h seen | 57 s audio/s | lr 1.98e-04 | VRAM 2.69 GiB
+step 150/22664 | loss 3.419 | 1.93 h seen | 84 s audio/s | lr 2.98e-04 | VRAM 2.69 GiB
+step 200/22664 | loss 2.669 | 2.56 h seen | 67 s audio/s | lr 3.98e-04 | VRAM 2.69 GiB
+step 250/22664 | loss 1.885 | 3.20 h seen | 91 s audio/s | lr 4.98e-04 | VRAM 2.69 GiB
+step 300/22664 | loss 1.688 | 3.84 h seen | 102 s audio/s | lr 5.98e-04 | VRAM 2.69 GiB
+step 350/22664 | loss 1.503 | 4.48 h seen | 88 s audio/s | lr 6.98e-04 | VRAM 2.69 GiB
+step 400/22664 | loss 1.514 | 5.12 h seen | 101 s audio/s | lr 7.98e-04 | VRAM 2.69 GiB
+step 450/22664 | loss 1.427 | 5.76 h seen | 130 s audio/s | lr 8.98e-04 | VRAM 2.69 GiB
+step 500/22664 | loss 1.458 | 6.40 h seen | 119 s audio/s | lr 9.98e-04 | VRAM 2.69 GiB
+step 550/22664 | loss 1.477 | 7.04 h seen | 98 s audio/s | lr 1.00e-03 | VRAM 2.69 GiB
+step 600/22664 | loss 1.037 | 7.68 h seen | 103 s audio/s | lr 1.00e-03 | VRAM 2.69 GiB
+step 650/22664 | loss 1.315 | 8.32 h seen | 114 s audio/s | lr 1.00e-03 | VRAM 2.69 GiB
+step 700/22664 | loss 1.142 | 8.96 h seen | 127 s audio/s | lr 1.00e-03 | VRAM 2.69 GiB
+step 750/22664 | loss 1.071 | 9.60 h seen | 114 s audio/s | lr 1.00e-03 | VRAM 2.69 GiB
+step 800/22664 | loss 1.197 | 10.25 h seen | 160 s audio/s | lr 1.00e-03 | VRAM 2.69 GiB
+step 850/22664 | loss 1.166 | 10.89 h seen | 113 s audio/s | lr 9.99e-04 | VRAM 2.69 GiB
+step 900/22664 | loss 1.287 | 11.53 h seen | 124 s audio/s | lr 9.99e-04 | VRAM 2.69 GiB
+step 950/22664 | loss 1.032 | 12.19 h seen | 165 s audio/s | lr 9.99e-04 | VRAM 2.69 GiB
+step 1000/22664 | loss 1.097 | 12.83 h seen | 138 s audio/s | lr 9.99e-04 | VRAM 2.69 GiB
+== EVAL step 1000 [valid]: CER 0.133 WER 0.425 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: इस्कूल जाने के बाद ियत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नसतन श पर केस ं समला हुआ
+== EVAL step 1000 [lahaja]: CER 0.227 WER 0.566 (1000 clips)
+   ref: समय
+   hyp: स
+   ref: हम
+   hyp: 
+step 1050/22664 | loss 1.213 | 13.47 h seen | 21 s audio/s | lr 9.99e-04 | VRAM 2.69 GiB
+step 1100/22664 | loss 0.983 | 14.11 h seen | 156 s audio/s | lr 9.98e-04 | VRAM 2.69 GiB
+step 1150/22664 | loss 1.269 | 14.76 h seen | 162 s audio/s | lr 9.98e-04 | VRAM 2.69 GiB
+step 1200/22664 | loss 1.116 | 15.40 h seen | 190 s audio/s | lr 9.98e-04 | VRAM 2.69 GiB
+step 1250/22664 | loss 1.121 | 16.04 h seen | 171 s audio/s | lr 9.97e-04 | VRAM 2.69 GiB
+step 1300/22664 | loss 1.062 | 16.68 h seen | 190 s audio/s | lr 9.97e-04 | VRAM 2.69 GiB
+step 1350/22664 | loss 1.048 | 17.32 h seen | 158 s audio/s | lr 9.97e-04 | VRAM 2.69 GiB
+step 1400/22664 | loss 1.014 | 17.96 h seen | 156 s audio/s | lr 9.96e-04 | VRAM 2.69 GiB
+step 1450/22664 | loss 1.030 | 18.60 h seen | 170 s audio/s | lr 9.96e-04 | VRAM 2.69 GiB
+step 1500/22664 | loss 1.022 | 19.24 h seen | 214 s audio/s | lr 9.95e-04 | VRAM 2.69 GiB
+step 1550/22664 | loss 1.048 | 19.88 h seen | 172 s audio/s | lr 9.95e-04 | VRAM 2.69 GiB
+step 1600/22664 | loss 0.967 | 20.52 h seen | 173 s audio/s | lr 9.95e-04 | VRAM 2.69 GiB
+step 1650/22664 | loss 1.000 | 21.16 h seen | 173 s audio/s | lr 9.94e-04 | VRAM 2.69 GiB
+step 1700/22664 | loss 1.097 | 21.80 h seen | 213 s audio/s | lr 9.94e-04 | VRAM 2.69 GiB
+step 1750/22664 | loss 1.024 | 22.44 h seen | 168 s audio/s | lr 9.93e-04 | VRAM 2.69 GiB
+step 1800/22664 | loss 0.957 | 23.08 h seen | 212 s audio/s | lr 9.92e-04 | VRAM 2.69 GiB
+step 1850/22664 | loss 0.961 | 23.71 h seen | 173 s audio/s | lr 9.92e-04 | VRAM 2.69 GiB
+step 1900/22664 | loss 0.992 | 24.36 h seen | 213 s audio/s | lr 9.91e-04 | VRAM 2.69 GiB
+step 1950/22664 | loss 0.866 | 25.00 h seen | 171 s audio/s | lr 9.91e-04 | VRAM 2.69 GiB
+step 2000/22664 | loss 1.058 | 25.64 h seen | 212 s audio/s | lr 9.90e-04 | VRAM 2.69 GiB
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/multiprocessing/resource_sharer.py", line 138, in _serve
+    with self._listener.accept() as conn:
+         ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 500, in accept
+    answer_challenge(c, self._authkey)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 979, in answer_challenge
+    message = connection.recv_bytes(256)         # reject large message
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 221, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 435, in _recv_bytes
+    buf = self._recv(4)
+  File "/usr/lib/python3.13/multiprocessing/connection.py", line 404, in _recv
+    raise EOFError
+EOFError

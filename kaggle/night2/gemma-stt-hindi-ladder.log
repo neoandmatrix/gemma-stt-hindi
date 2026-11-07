@@ -1,0 +1,28 @@
+[{"stream_name":"stdout","time":0.855044647,"data":"[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code\n"}
+,{"stream_name":"stderr","time":19.35693203,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":19.35697567,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.356980621,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.356983847,"data":"datasets 4.8.5 requires huggingface-hub\u003c2.0,\u003e=0.25.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.356986538,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":19.356989311,"data":"gradio-client 2.6.1 requires huggingface-hub\u003c2.0,\u003e=0.19.3, but you have huggingface-hub 2.3.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":19.888359971,"data":"[   0.3 min] ffmpeg /usr/bin/ffmpeg, libsndfile 1.2.2, clips as opus\n"}
+,{"stream_name":"stdout","time":26.898247455,"data":"[   0.4 min] torch 2.11.0+cu128, 2 GPU(s), 4 CPUs\n"}
+,{"stream_name":"stderr","time":47.516063019,"data":"\rFetching 4 files:   0%|          | 0/4 [00:00\u003c?, ?it/s]\rFetching 4 files:  25%|██▌       | 1/4 [00:03\u003c00:11,  3.92s/it]\rFetching 4 files:  50%|█████     | 2/4 [00:04\u003c00:03,  1.75s/it]\rFetching 4 files:  75%|███████▌  | 3/4 [00:05\u003c00:01,  1.58s/it]\rFetching 4 files: 100%|██████████| 4/4 [00:05\u003c00:00,  1.39s/it]\n"}
+,{"stream_name":"stderr","time":61.256758666,"data":"\rFetching 15 files:   0%|          | 0/15 [00:00\u003c?, ?it/s]\rFetching 15 files:   7%|▋         | 1/15 [00:00\u003c00:06,  2.31it/s]\rFetching 15 files:  13%|█▎        | 2/15 [00:00\u003c00:03,  4.21it/s]\rFetching 15 files:  27%|██▋       | 4/15 [00:00\u003c00:01,  7.75it/s]\rFetching 15 files:  40%|████      | 6/15 [00:00\u003c00:00,  9.04it/s]\rFetching 15 files:  73%|███████▎  | 11/15 [00:01\u003c00:00, 15.80it/s]\rFetching 15 files:  87%|████████▋ | 13/15 [00:05\u003c00:01,  1.65it/s]\rFetching 15 files: 100%|██████████| 15/15 [00:13\u003c00:00,  1.55s/it]\rFetching 15 files: 100%|██████████| 15/15 [00:13\u003c00:00,  1.12it/s]\n"}
+,{"stream_name":"stdout","time":61.257632495,"data":"[   1.0 min] Kathbath / Lahaja / EmbeddingGemma 2 ready\n"}
+,{"stream_name":"stdout","time":369.164358641,"data":"[   6.1 min] YODAS shard 0000 (try 1): {\"videos\": 18, \"clips_kept\": 474, \"clips_dropped\": 499, \"h_kept\": 1.14, \"h_dropped\": 0.58, \"errors\": 1} in 6 min\n"}
+,{"stream_name":"stdout","time":948.351055966,"data":"[  15.8 min] YODAS shard 0280 (try 1): {\"videos\": 65, \"clips_kept\": 1319, \"clips_dropped\": 1238, \"h_kept\": 3.46, \"h_dropped\": 1.68, \"errors\": 1} in 15 min\n"}
+,{"stream_name":"stdout","time":2670.424350898,"data":"[  44.5 min] YODAS shard 0140 (try 1): {\"videos\": 49, \"clips_kept\": 4458, \"clips_dropped\": 3210, \"h_kept\": 11.93, \"h_dropped\": 5.77, \"errors\": 1} in 44 min\n"}
+,{"stream_name":"stdout","time":2670.753538676,"data":"[  44.5 min] data ready at 0.74 h: YODAS 17 h in 3 files, Kathbath 20 h\n"}
+,{"stream_name":"stderr","time":2670.754179826,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":2670.754489896,"data":"  File \"/kaggle/src/script.py\", line 121, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":2670.754504119,"data":"    assert yodas_h \u003e 20, \"YODAS conversion failed (see the shard lines above)\"\n"}
+,{"stream_name":"stderr","time":2670.754523772,"data":"           ^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":2670.754527696,"data":"AssertionError: YODAS conversion failed (see the shard lines above)\n"}
+,{"stream_name":"stderr","time":2675.740820252,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2675.740845188,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2676.050976178,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2676.051000115,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2676.886099302,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2677.91147604,"data":"[NbConvertApp] Writing 321812 bytes to __results__.html\n"}
+]

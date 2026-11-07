@@ -1,0 +1,351 @@
+train 34395 clips / 47.69 h | eval valid 1000, lahaja 1000 | units 74
+Loading weights:   0%|          | 0/1165 [00:00<?, ?it/s]Loading weights:  16%|█▋        | 190/1165 [00:00<00:00, 1898.59it/s]Loading weights:  33%|███▎      | 380/1165 [00:00<00:00, 1654.17it/s]Loading weights:  47%|████▋     | 548/1165 [00:00<00:00, 1591.16it/s]Loading weights:  61%|██████    | 709/1165 [00:00<00:00, 1542.27it/s]Loading weights:  74%|███████▍  | 864/1165 [00:00<00:00, 1392.30it/s]Loading weights:  86%|████████▋ | 1006/1165 [00:00<00:00, 1237.39it/s]Loading weights:  97%|█████████▋| 1133/1165 [00:00<00:00, 1230.02it/s]Loading weights: 100%|██████████| 1165/1165 [00:00<00:00, 1349.88it/s]
+11379 steps (3793/epoch), trainable 94M
+step 50/11379 | loss 4.568 | 0.63 h seen | 47 s audio/s | lr 1.63e-04 | VRAM 2.64 GiB
+step 100/11379 | loss 3.636 | 1.25 h seen | 54 s audio/s | lr 3.30e-04 | VRAM 2.64 GiB
+step 150/11379 | loss 3.465 | 1.87 h seen | 77 s audio/s | lr 4.97e-04 | VRAM 2.64 GiB
+step 200/11379 | loss 2.617 | 2.50 h seen | 82 s audio/s | lr 6.63e-04 | VRAM 2.64 GiB
+step 250/11379 | loss 1.317 | 3.13 h seen | 91 s audio/s | lr 8.30e-04 | VRAM 2.64 GiB
+step 300/11379 | loss 0.985 | 3.75 h seen | 91 s audio/s | lr 9.97e-04 | VRAM 2.64 GiB
+step 350/11379 | loss 0.847 | 4.38 h seen | 124 s audio/s | lr 1.00e-03 | VRAM 2.64 GiB
+step 400/11379 | loss 0.809 | 5.01 h seen | 131 s audio/s | lr 1.00e-03 | VRAM 2.64 GiB
+step 450/11379 | loss 0.722 | 5.64 h seen | 115 s audio/s | lr 1.00e-03 | VRAM 2.64 GiB
+step 500/11379 | loss 0.677 | 6.26 h seen | 187 s audio/s | lr 9.99e-04 | VRAM 2.64 GiB
+step 550/11379 | loss 0.631 | 6.90 h seen | 173 s audio/s | lr 9.99e-04 | VRAM 2.65 GiB
+step 600/11379 | loss 0.647 | 7.53 h seen | 149 s audio/s | lr 9.98e-04 | VRAM 2.65 GiB
+step 650/11379 | loss 0.586 | 8.16 h seen | 150 s audio/s | lr 9.98e-04 | VRAM 2.65 GiB
+step 700/11379 | loss 0.575 | 8.79 h seen | 206 s audio/s | lr 9.97e-04 | VRAM 2.65 GiB
+step 750/11379 | loss 0.547 | 9.42 h seen | 188 s audio/s | lr 9.96e-04 | VRAM 2.65 GiB
+step 800/11379 | loss 0.528 | 10.05 h seen | 205 s audio/s | lr 9.96e-04 | VRAM 2.65 GiB
+step 850/11379 | loss 0.532 | 10.68 h seen | 189 s audio/s | lr 9.95e-04 | VRAM 2.65 GiB
+step 900/11379 | loss 0.523 | 11.30 h seen | 0 s audio/s | lr 9.94e-04 | VRAM 2.65 GiB
+step 950/11379 | loss 0.492 | 11.93 h seen | 170 s audio/s | lr 9.92e-04 | VRAM 2.65 GiB
+step 1000/11379 | loss 0.483 | 12.56 h seen | 163 s audio/s | lr 9.91e-04 | VRAM 2.65 GiB
+== EVAL step 1000 [valid]: CER 0.132 WER 0.436 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: सकूलजा ने े बद खेय जाते ैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नसुतीं शा पर के टंगसमल ुआ
+== EVAL step 1000 [lahaja]: CER 0.228 WER 0.642 (1000 clips)
+   ref: समय
+   hyp: समा
+   ref: हम
+   hyp: खम
+step 1050/11379 | loss 0.476 | 13.19 h seen | 24 s audio/s | lr 9.90e-04 | VRAM 2.65 GiB
+step 1100/11379 | loss 0.452 | 13.83 h seen | 209 s audio/s | lr 9.88e-04 | VRAM 2.65 GiB
+step 1150/11379 | loss 0.477 | 14.46 h seen | 207 s audio/s | lr 9.87e-04 | VRAM 2.65 GiB
+step 1200/11379 | loss 0.431 | 15.09 h seen | 188 s audio/s | lr 9.85e-04 | VRAM 2.65 GiB
+step 1250/11379 | loss 0.469 | 15.72 h seen | 190 s audio/s | lr 9.84e-04 | VRAM 2.65 GiB
+step 1300/11379 | loss 0.467 | 16.34 h seen | 163 s audio/s | lr 9.82e-04 | VRAM 2.65 GiB
+step 1350/11379 | loss 0.437 | 16.97 h seen | 164 s audio/s | lr 9.80e-04 | VRAM 2.67 GiB
+step 1400/11379 | loss 0.422 | 17.60 h seen | 208 s audio/s | lr 9.78e-04 | VRAM 2.67 GiB
+step 1450/11379 | loss 0.417 | 18.22 h seen | 135 s audio/s | lr 9.76e-04 | VRAM 2.67 GiB
+step 1500/11379 | loss 0.413 | 18.85 h seen | 206 s audio/s | lr 9.74e-04 | VRAM 2.67 GiB
+step 1550/11379 | loss 0.407 | 19.48 h seen | 189 s audio/s | lr 9.72e-04 | VRAM 2.67 GiB
+step 1600/11379 | loss 0.451 | 20.11 h seen | 144 s audio/s | lr 9.70e-04 | VRAM 2.67 GiB
+step 1650/11379 | loss 0.410 | 20.74 h seen | 207 s audio/s | lr 9.67e-04 | VRAM 2.67 GiB
+step 1700/11379 | loss 0.390 | 21.36 h seen | 177 s audio/s | lr 9.65e-04 | VRAM 2.67 GiB
+step 1750/11379 | loss 0.411 | 21.99 h seen | 190 s audio/s | lr 9.63e-04 | VRAM 2.67 GiB
+step 1800/11379 | loss 0.395 | 22.62 h seen | 206 s audio/s | lr 9.60e-04 | VRAM 2.67 GiB
+step 1850/11379 | loss 0.407 | 23.24 h seen | 177 s audio/s | lr 9.57e-04 | VRAM 2.67 GiB
+step 1900/11379 | loss 0.398 | 23.87 h seen | 191 s audio/s | lr 9.55e-04 | VRAM 2.67 GiB
+step 1950/11379 | loss 0.399 | 24.50 h seen | 208 s audio/s | lr 9.52e-04 | VRAM 2.67 GiB
+step 2000/11379 | loss 0.401 | 25.14 h seen | 191 s audio/s | lr 9.49e-04 | VRAM 2.67 GiB
+== EVAL step 2000 [valid]: CER 0.102 WER 0.361 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: सकूज जाने के ाद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नासरतीन शा पर के स ठंग सम ला हआ
+== EVAL step 2000 [lahaja]: CER 0.201 WER 0.595 (1000 clips)
+   ref: समय
+   hyp: समा
+   ref: हम
+   hyp: हम
+step 2050/11379 | loss 0.379 | 25.76 h seen | 48 s audio/s | lr 9.46e-04 | VRAM 2.67 GiB
+step 2100/11379 | loss 0.402 | 26.39 h seen | 190 s audio/s | lr 9.43e-04 | VRAM 2.67 GiB
+step 2150/11379 | loss 0.378 | 27.02 h seen | 208 s audio/s | lr 9.40e-04 | VRAM 2.67 GiB
+step 2200/11379 | loss 0.382 | 27.64 h seen | 206 s audio/s | lr 9.36e-04 | VRAM 2.67 GiB
+step 2250/11379 | loss 0.378 | 28.27 h seen | 190 s audio/s | lr 9.33e-04 | VRAM 2.67 GiB
+step 2300/11379 | loss 0.433 | 28.90 h seen | 189 s audio/s | lr 9.30e-04 | VRAM 2.67 GiB
+step 2350/11379 | loss 0.383 | 29.53 h seen | 190 s audio/s | lr 9.26e-04 | VRAM 2.67 GiB
+step 2400/11379 | loss 0.368 | 30.16 h seen | 206 s audio/s | lr 9.23e-04 | VRAM 2.67 GiB
+step 2450/11379 | loss 0.356 | 30.79 h seen | 191 s audio/s | lr 9.19e-04 | VRAM 2.67 GiB
+step 2500/11379 | loss 0.367 | 31.43 h seen | 191 s audio/s | lr 9.15e-04 | VRAM 2.67 GiB
+step 2550/11379 | loss 0.359 | 32.06 h seen | 190 s audio/s | lr 9.12e-04 | VRAM 2.67 GiB
+step 2600/11379 | loss 0.364 | 32.68 h seen | 207 s audio/s | lr 9.08e-04 | VRAM 2.67 GiB
+step 2650/11379 | loss 0.366 | 33.31 h seen | 191 s audio/s | lr 9.04e-04 | VRAM 2.67 GiB
+step 2700/11379 | loss 0.332 | 33.94 h seen | 207 s audio/s | lr 9.00e-04 | VRAM 2.67 GiB
+step 2750/11379 | loss 0.370 | 34.57 h seen | 206 s audio/s | lr 8.96e-04 | VRAM 2.67 GiB
+step 2800/11379 | loss 0.375 | 35.20 h seen | 192 s audio/s | lr 8.92e-04 | VRAM 2.67 GiB
+step 2850/11379 | loss 0.340 | 35.83 h seen | 190 s audio/s | lr 8.87e-04 | VRAM 2.67 GiB
+step 2900/11379 | loss 0.354 | 36.46 h seen | 177 s audio/s | lr 8.83e-04 | VRAM 2.67 GiB
+step 2950/11379 | loss 0.321 | 37.09 h seen | 191 s audio/s | lr 8.79e-04 | VRAM 2.67 GiB
+step 3000/11379 | loss 0.335 | 37.71 h seen | 191 s audio/s | lr 8.75e-04 | VRAM 2.67 GiB
+== EVAL step 3000 [valid]: CER 0.091 WER 0.325 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: इसकूल साने के बद खे जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नसुरतीन शा पर के स्ठंग समल हुआ
+== EVAL step 3000 [lahaja]: CER 0.200 WER 0.614 (1000 clips)
+   ref: समय
+   hyp: समा
+   ref: हम
+   hyp: खम
+step 3050/11379 | loss 0.328 | 38.34 h seen | 49 s audio/s | lr 8.70e-04 | VRAM 2.67 GiB
+step 3100/11379 | loss 0.326 | 38.97 h seen | 207 s audio/s | lr 8.66e-04 | VRAM 2.67 GiB
+step 3150/11379 | loss 0.316 | 39.60 h seen | 190 s audio/s | lr 8.61e-04 | VRAM 2.67 GiB
+step 3200/11379 | loss 0.361 | 40.24 h seen | 207 s audio/s | lr 8.56e-04 | VRAM 2.67 GiB
+step 3250/11379 | loss 0.324 | 40.86 h seen | 206 s audio/s | lr 8.52e-04 | VRAM 2.67 GiB
+step 3300/11379 | loss 0.324 | 41.49 h seen | 207 s audio/s | lr 8.47e-04 | VRAM 2.67 GiB
+step 3350/11379 | loss 0.314 | 42.12 h seen | 190 s audio/s | lr 8.42e-04 | VRAM 2.67 GiB
+step 3400/11379 | loss 0.354 | 42.75 h seen | 208 s audio/s | lr 8.37e-04 | VRAM 2.67 GiB
+step 3450/11379 | loss 0.352 | 43.37 h seen | 176 s audio/s | lr 8.32e-04 | VRAM 2.67 GiB
+step 3500/11379 | loss 0.314 | 44.00 h seen | 190 s audio/s | lr 8.27e-04 | VRAM 2.67 GiB
+step 3550/11379 | loss 0.294 | 44.64 h seen | 208 s audio/s | lr 8.22e-04 | VRAM 2.67 GiB
+step 3600/11379 | loss 0.334 | 45.27 h seen | 207 s audio/s | lr 8.17e-04 | VRAM 2.67 GiB
+step 3650/11379 | loss 0.323 | 45.89 h seen | 189 s audio/s | lr 8.12e-04 | VRAM 2.67 GiB
+step 3700/11379 | loss 0.337 | 46.52 h seen | 190 s audio/s | lr 8.07e-04 | VRAM 2.67 GiB
+step 3750/11379 | loss 0.303 | 47.15 h seen | 190 s audio/s | lr 8.01e-04 | VRAM 2.67 GiB
+step 3800/11379 | loss 0.300 | 47.78 h seen | 179 s audio/s | lr 7.96e-04 | VRAM 2.67 GiB
+step 3850/11379 | loss 0.252 | 48.40 h seen | 206 s audio/s | lr 7.91e-04 | VRAM 2.67 GiB
+step 3900/11379 | loss 0.222 | 49.03 h seen | 206 s audio/s | lr 7.85e-04 | VRAM 2.67 GiB
+step 3950/11379 | loss 0.239 | 49.65 h seen | 206 s audio/s | lr 7.80e-04 | VRAM 2.67 GiB
+step 4000/11379 | loss 0.254 | 50.28 h seen | 207 s audio/s | lr 7.74e-04 | VRAM 2.67 GiB
+== EVAL step 4000 [valid]: CER 0.083 WER 0.293 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: इस्कूल साने के बद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नासुरतीन शा पर के सट ंग समला हुआ
+== EVAL step 4000 [lahaja]: CER 0.182 WER 0.550 (1000 clips)
+   ref: समय
+   hyp: सामा
+   ref: हम
+   hyp: ैहम
+step 4050/11379 | loss 0.264 | 50.91 h seen | 49 s audio/s | lr 7.69e-04 | VRAM 2.67 GiB
+step 4100/11379 | loss 0.251 | 51.54 h seen | 206 s audio/s | lr 7.63e-04 | VRAM 2.67 GiB
+step 4150/11379 | loss 0.251 | 52.17 h seen | 206 s audio/s | lr 7.58e-04 | VRAM 2.67 GiB
+step 4200/11379 | loss 0.237 | 52.80 h seen | 207 s audio/s | lr 7.52e-04 | VRAM 2.67 GiB
+step 4250/11379 | loss 0.239 | 53.42 h seen | 206 s audio/s | lr 7.46e-04 | VRAM 2.67 GiB
+step 4300/11379 | loss 0.225 | 54.06 h seen | 208 s audio/s | lr 7.40e-04 | VRAM 2.67 GiB
+step 4350/11379 | loss 0.256 | 54.69 h seen | 207 s audio/s | lr 7.35e-04 | VRAM 2.67 GiB
+step 4400/11379 | loss 0.237 | 55.32 h seen | 208 s audio/s | lr 7.29e-04 | VRAM 2.67 GiB
+step 4450/11379 | loss 0.254 | 55.95 h seen | 207 s audio/s | lr 7.23e-04 | VRAM 2.67 GiB
+step 4500/11379 | loss 0.241 | 56.58 h seen | 207 s audio/s | lr 7.17e-04 | VRAM 2.67 GiB
+step 4550/11379 | loss 0.237 | 57.21 h seen | 208 s audio/s | lr 7.11e-04 | VRAM 2.67 GiB
+step 4600/11379 | loss 0.236 | 57.83 h seen | 207 s audio/s | lr 7.05e-04 | VRAM 2.67 GiB
+step 4650/11379 | loss 0.249 | 58.46 h seen | 207 s audio/s | lr 6.99e-04 | VRAM 2.67 GiB
+step 4700/11379 | loss 0.246 | 59.09 h seen | 207 s audio/s | lr 6.93e-04 | VRAM 2.67 GiB
+step 4750/11379 | loss 0.241 | 59.72 h seen | 206 s audio/s | lr 6.87e-04 | VRAM 2.67 GiB
+step 4800/11379 | loss 0.244 | 60.35 h seen | 208 s audio/s | lr 6.81e-04 | VRAM 2.67 GiB
+step 4850/11379 | loss 0.241 | 60.98 h seen | 208 s audio/s | lr 6.75e-04 | VRAM 2.67 GiB
+step 4900/11379 | loss 0.274 | 61.61 h seen | 208 s audio/s | lr 6.69e-04 | VRAM 2.67 GiB
+step 4950/11379 | loss 0.235 | 62.24 h seen | 207 s audio/s | lr 6.62e-04 | VRAM 2.67 GiB
+step 5000/11379 | loss 0.244 | 62.87 h seen | 207 s audio/s | lr 6.56e-04 | VRAM 2.67 GiB
+== EVAL step 5000 [valid]: CER 0.078 WER 0.276 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: इस्कूल साने के बद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नसुतीं शा पर के स् ंग समला हआ
+== EVAL step 5000 [lahaja]: CER 0.178 WER 0.534 (1000 clips)
+   ref: समय
+   hyp: सम
+   ref: हम
+   hyp: खम
+step 5050/11379 | loss 0.245 | 63.49 h seen | 48 s audio/s | lr 6.50e-04 | VRAM 2.67 GiB
+step 5100/11379 | loss 0.252 | 64.11 h seen | 205 s audio/s | lr 6.44e-04 | VRAM 2.67 GiB
+step 5150/11379 | loss 0.262 | 64.74 h seen | 206 s audio/s | lr 6.38e-04 | VRAM 2.67 GiB
+step 5200/11379 | loss 0.234 | 65.37 h seen | 205 s audio/s | lr 6.31e-04 | VRAM 2.67 GiB
+step 5250/11379 | loss 0.217 | 66.00 h seen | 207 s audio/s | lr 6.25e-04 | VRAM 2.67 GiB
+step 5300/11379 | loss 0.241 | 66.62 h seen | 207 s audio/s | lr 6.19e-04 | VRAM 2.67 GiB
+step 5350/11379 | loss 0.228 | 67.25 h seen | 208 s audio/s | lr 6.12e-04 | VRAM 2.67 GiB
+step 5400/11379 | loss 0.243 | 67.88 h seen | 208 s audio/s | lr 6.06e-04 | VRAM 2.67 GiB
+step 5450/11379 | loss 0.238 | 68.51 h seen | 208 s audio/s | lr 6.00e-04 | VRAM 2.67 GiB
+step 5500/11379 | loss 0.242 | 69.14 h seen | 208 s audio/s | lr 5.93e-04 | VRAM 2.67 GiB
+step 5550/11379 | loss 0.214 | 69.77 h seen | 208 s audio/s | lr 5.87e-04 | VRAM 2.67 GiB
+step 5600/11379 | loss 0.227 | 70.40 h seen | 206 s audio/s | lr 5.81e-04 | VRAM 2.67 GiB
+step 5650/11379 | loss 0.234 | 71.03 h seen | 207 s audio/s | lr 5.74e-04 | VRAM 2.67 GiB
+step 5700/11379 | loss 0.207 | 71.65 h seen | 207 s audio/s | lr 5.68e-04 | VRAM 2.67 GiB
+step 5750/11379 | loss 0.234 | 72.28 h seen | 208 s audio/s | lr 5.62e-04 | VRAM 2.67 GiB
+step 5800/11379 | loss 0.209 | 72.91 h seen | 207 s audio/s | lr 5.55e-04 | VRAM 2.67 GiB
+step 5850/11379 | loss 0.207 | 73.54 h seen | 208 s audio/s | lr 5.49e-04 | VRAM 2.67 GiB
+step 5900/11379 | loss 0.201 | 74.17 h seen | 208 s audio/s | lr 5.42e-04 | VRAM 2.67 GiB
+step 5950/11379 | loss 0.231 | 74.79 h seen | 207 s audio/s | lr 5.36e-04 | VRAM 2.67 GiB
+step 6000/11379 | loss 0.240 | 75.42 h seen | 207 s audio/s | lr 5.30e-04 | VRAM 2.67 GiB
+== EVAL step 6000 [valid]: CER 0.074 WER 0.260 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: इस्कूल साने के बद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नसवरतीन शा पर के स डंग समला हुआ
+== EVAL step 6000 [lahaja]: CER 0.173 WER 0.529 (1000 clips)
+   ref: समय
+   hyp: सम
+   ref: हम
+   hyp: खहम
+step 6050/11379 | loss 0.205 | 76.05 h seen | 49 s audio/s | lr 5.23e-04 | VRAM 2.67 GiB
+step 6100/11379 | loss 0.214 | 76.68 h seen | 206 s audio/s | lr 5.17e-04 | VRAM 2.67 GiB
+step 6150/11379 | loss 0.218 | 77.31 h seen | 207 s audio/s | lr 5.11e-04 | VRAM 2.67 GiB
+step 6200/11379 | loss 0.227 | 77.95 h seen | 207 s audio/s | lr 5.04e-04 | VRAM 2.67 GiB
+step 6250/11379 | loss 0.212 | 78.58 h seen | 208 s audio/s | lr 4.98e-04 | VRAM 2.67 GiB
+step 6300/11379 | loss 0.231 | 79.21 h seen | 207 s audio/s | lr 4.92e-04 | VRAM 2.67 GiB
+step 6350/11379 | loss 0.208 | 79.83 h seen | 207 s audio/s | lr 4.85e-04 | VRAM 2.67 GiB
+step 6400/11379 | loss 0.215 | 80.46 h seen | 208 s audio/s | lr 4.79e-04 | VRAM 2.67 GiB
+step 6450/11379 | loss 0.241 | 81.08 h seen | 206 s audio/s | lr 4.73e-04 | VRAM 2.67 GiB
+step 6500/11379 | loss 0.255 | 81.71 h seen | 208 s audio/s | lr 4.66e-04 | VRAM 2.67 GiB
+step 6550/11379 | loss 0.218 | 82.34 h seen | 208 s audio/s | lr 4.60e-04 | VRAM 2.67 GiB
+step 6600/11379 | loss 0.214 | 82.97 h seen | 207 s audio/s | lr 4.54e-04 | VRAM 2.67 GiB
+step 6650/11379 | loss 0.211 | 83.60 h seen | 206 s audio/s | lr 4.48e-04 | VRAM 2.67 GiB
+step 6700/11379 | loss 0.220 | 84.23 h seen | 206 s audio/s | lr 4.41e-04 | VRAM 2.67 GiB
+step 6750/11379 | loss 0.214 | 84.85 h seen | 206 s audio/s | lr 4.35e-04 | VRAM 2.67 GiB
+step 6800/11379 | loss 0.223 | 85.48 h seen | 207 s audio/s | lr 4.29e-04 | VRAM 2.67 GiB
+step 6850/11379 | loss 0.214 | 86.11 h seen | 208 s audio/s | lr 4.23e-04 | VRAM 2.67 GiB
+step 6900/11379 | loss 0.208 | 86.74 h seen | 208 s audio/s | lr 4.17e-04 | VRAM 2.67 GiB
+step 6950/11379 | loss 0.206 | 87.37 h seen | 208 s audio/s | lr 4.11e-04 | VRAM 2.67 GiB
+step 7000/11379 | loss 0.197 | 88.00 h seen | 207 s audio/s | lr 4.05e-04 | VRAM 2.67 GiB
+== EVAL step 7000 [valid]: CER 0.067 WER 0.239 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: इस्कूल जाने के बद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नास्रतीं शा पर के स ठंग समला हुआ
+== EVAL step 7000 [lahaja]: CER 0.171 WER 0.528 (1000 clips)
+   ref: समय
+   hyp: सम
+   ref: हम
+   hyp: हम
+step 7050/11379 | loss 0.199 | 88.63 h seen | 49 s audio/s | lr 3.99e-04 | VRAM 2.67 GiB
+step 7100/11379 | loss 0.190 | 89.25 h seen | 207 s audio/s | lr 3.93e-04 | VRAM 2.67 GiB
+step 7150/11379 | loss 0.195 | 89.89 h seen | 208 s audio/s | lr 3.87e-04 | VRAM 2.67 GiB
+step 7200/11379 | loss 0.200 | 90.51 h seen | 206 s audio/s | lr 3.81e-04 | VRAM 2.67 GiB
+step 7250/11379 | loss 0.178 | 91.14 h seen | 206 s audio/s | lr 3.75e-04 | VRAM 2.67 GiB
+step 7300/11379 | loss 0.238 | 91.77 h seen | 207 s audio/s | lr 3.69e-04 | VRAM 2.67 GiB
+step 7350/11379 | loss 0.199 | 92.40 h seen | 207 s audio/s | lr 3.63e-04 | VRAM 2.67 GiB
+step 7400/11379 | loss 0.195 | 93.03 h seen | 207 s audio/s | lr 3.57e-04 | VRAM 2.67 GiB
+step 7450/11379 | loss 0.207 | 93.66 h seen | 207 s audio/s | lr 3.52e-04 | VRAM 2.67 GiB
+step 7500/11379 | loss 0.200 | 94.29 h seen | 207 s audio/s | lr 3.46e-04 | VRAM 2.67 GiB
+step 7550/11379 | loss 0.215 | 94.92 h seen | 203 s audio/s | lr 3.40e-04 | VRAM 2.67 GiB
+step 7600/11379 | loss 0.184 | 95.55 h seen | 193 s audio/s | lr 3.35e-04 | VRAM 2.67 GiB
+step 7650/11379 | loss 0.129 | 96.18 h seen | 208 s audio/s | lr 3.29e-04 | VRAM 2.67 GiB
+step 7700/11379 | loss 0.135 | 96.81 h seen | 208 s audio/s | lr 3.24e-04 | VRAM 2.67 GiB
+step 7750/11379 | loss 0.129 | 97.44 h seen | 208 s audio/s | lr 3.18e-04 | VRAM 2.67 GiB
+step 7800/11379 | loss 0.152 | 98.06 h seen | 207 s audio/s | lr 3.13e-04 | VRAM 2.67 GiB
+step 7850/11379 | loss 0.137 | 98.69 h seen | 207 s audio/s | lr 3.07e-04 | VRAM 2.67 GiB
+step 7900/11379 | loss 0.125 | 99.32 h seen | 206 s audio/s | lr 3.02e-04 | VRAM 2.67 GiB
+step 7950/11379 | loss 0.114 | 99.94 h seen | 207 s audio/s | lr 2.97e-04 | VRAM 2.67 GiB
+step 8000/11379 | loss 0.115 | 100.57 h seen | 207 s audio/s | lr 2.91e-04 | VRAM 2.67 GiB
+== EVAL step 8000 [valid]: CER 0.066 WER 0.233 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल साने के बद खे जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नसुरतीन शा पर के इ घंग समला हुआ
+== EVAL step 8000 [lahaja]: CER 0.169 WER 0.512 (1000 clips)
+   ref: समय
+   hyp: सम
+   ref: हम
+   hyp: हम
+step 8050/11379 | loss 0.121 | 101.20 h seen | 49 s audio/s | lr 2.86e-04 | VRAM 2.67 GiB
+step 8100/11379 | loss 0.129 | 101.83 h seen | 207 s audio/s | lr 2.81e-04 | VRAM 2.67 GiB
+step 8150/11379 | loss 0.133 | 102.46 h seen | 206 s audio/s | lr 2.76e-04 | VRAM 2.67 GiB
+step 8200/11379 | loss 0.110 | 103.09 h seen | 207 s audio/s | lr 2.71e-04 | VRAM 2.67 GiB
+step 8250/11379 | loss 0.132 | 103.71 h seen | 206 s audio/s | lr 2.66e-04 | VRAM 2.67 GiB
+step 8300/11379 | loss 0.135 | 104.34 h seen | 207 s audio/s | lr 2.61e-04 | VRAM 2.67 GiB
+step 8350/11379 | loss 0.117 | 104.97 h seen | 207 s audio/s | lr 2.56e-04 | VRAM 2.67 GiB
+step 8400/11379 | loss 0.125 | 105.60 h seen | 207 s audio/s | lr 2.51e-04 | VRAM 2.67 GiB
+step 8450/11379 | loss 0.119 | 106.22 h seen | 207 s audio/s | lr 2.47e-04 | VRAM 2.67 GiB
+step 8500/11379 | loss 0.115 | 106.85 h seen | 207 s audio/s | lr 2.42e-04 | VRAM 2.67 GiB
+step 8550/11379 | loss 0.131 | 107.48 h seen | 207 s audio/s | lr 2.37e-04 | VRAM 2.67 GiB
+step 8600/11379 | loss 0.129 | 108.11 h seen | 208 s audio/s | lr 2.33e-04 | VRAM 2.67 GiB
+step 8650/11379 | loss 0.136 | 108.74 h seen | 207 s audio/s | lr 2.28e-04 | VRAM 2.67 GiB
+step 8700/11379 | loss 0.131 | 109.37 h seen | 208 s audio/s | lr 2.24e-04 | VRAM 2.67 GiB
+step 8750/11379 | loss 0.126 | 110.00 h seen | 207 s audio/s | lr 2.19e-04 | VRAM 2.67 GiB
+step 8800/11379 | loss 0.126 | 110.63 h seen | 208 s audio/s | lr 2.15e-04 | VRAM 2.67 GiB
+step 8850/11379 | loss 0.116 | 111.26 h seen | 207 s audio/s | lr 2.11e-04 | VRAM 2.67 GiB
+step 8900/11379 | loss 0.122 | 111.89 h seen | 208 s audio/s | lr 2.07e-04 | VRAM 2.67 GiB
+step 8950/11379 | loss 0.128 | 112.52 h seen | 208 s audio/s | lr 2.03e-04 | VRAM 2.67 GiB
+step 9000/11379 | loss 0.120 | 113.14 h seen | 207 s audio/s | lr 1.99e-04 | VRAM 2.67 GiB
+== EVAL step 9000 [valid]: CER 0.065 WER 0.231 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूछ साने के बद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नस्वरतीं शा पर के स डंग समला हुआ
+== EVAL step 9000 [lahaja]: CER 0.166 WER 0.504 (1000 clips)
+   ref: समय
+   hyp: सम
+   ref: हम
+   hyp: कहम
+step 9050/11379 | loss 0.112 | 113.78 h seen | 49 s audio/s | lr 1.95e-04 | VRAM 2.67 GiB
+step 9100/11379 | loss 0.131 | 114.41 h seen | 207 s audio/s | lr 1.91e-04 | VRAM 2.67 GiB
+step 9150/11379 | loss 0.132 | 115.04 h seen | 207 s audio/s | lr 1.87e-04 | VRAM 2.67 GiB
+step 9200/11379 | loss 0.132 | 115.67 h seen | 207 s audio/s | lr 1.83e-04 | VRAM 2.67 GiB
+step 9250/11379 | loss 0.125 | 116.30 h seen | 207 s audio/s | lr 1.80e-04 | VRAM 2.67 GiB
+step 9300/11379 | loss 0.101 | 116.93 h seen | 207 s audio/s | lr 1.76e-04 | VRAM 2.67 GiB
+step 9350/11379 | loss 0.114 | 117.55 h seen | 208 s audio/s | lr 1.73e-04 | VRAM 2.67 GiB
+step 9400/11379 | loss 0.123 | 118.19 h seen | 208 s audio/s | lr 1.69e-04 | VRAM 2.67 GiB
+step 9450/11379 | loss 0.120 | 118.81 h seen | 207 s audio/s | lr 1.66e-04 | VRAM 2.67 GiB
+step 9500/11379 | loss 0.121 | 119.43 h seen | 207 s audio/s | lr 1.62e-04 | VRAM 2.67 GiB
+step 9550/11379 | loss 0.127 | 120.06 h seen | 206 s audio/s | lr 1.59e-04 | VRAM 2.67 GiB
+step 9600/11379 | loss 0.128 | 120.68 h seen | 207 s audio/s | lr 1.56e-04 | VRAM 2.67 GiB
+step 9650/11379 | loss 0.129 | 121.32 h seen | 207 s audio/s | lr 1.53e-04 | VRAM 2.67 GiB
+step 9700/11379 | loss 0.137 | 121.95 h seen | 207 s audio/s | lr 1.50e-04 | VRAM 2.67 GiB
+step 9750/11379 | loss 0.126 | 122.58 h seen | 206 s audio/s | lr 1.47e-04 | VRAM 2.67 GiB
+step 9800/11379 | loss 0.138 | 123.21 h seen | 208 s audio/s | lr 1.44e-04 | VRAM 2.67 GiB
+step 9850/11379 | loss 0.107 | 123.84 h seen | 207 s audio/s | lr 1.42e-04 | VRAM 2.67 GiB
+step 9900/11379 | loss 0.113 | 124.46 h seen | 207 s audio/s | lr 1.39e-04 | VRAM 2.67 GiB
+step 9950/11379 | loss 0.111 | 125.09 h seen | 207 s audio/s | lr 1.36e-04 | VRAM 2.67 GiB
+step 10000/11379 | loss 0.128 | 125.72 h seen | 208 s audio/s | lr 1.34e-04 | VRAM 2.67 GiB
+== EVAL step 10000 [valid]: CER 0.063 WER 0.223 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूछ साने के बद खेत जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नस्वर्तीत शा पर के इ डंग समला हुआ
+== EVAL step 10000 [lahaja]: CER 0.161 WER 0.492 (1000 clips)
+   ref: समय
+   hyp: स
+   ref: हम
+   hyp: क कहम
+step 10050/11379 | loss 0.111 | 126.35 h seen | 48 s audio/s | lr 1.32e-04 | VRAM 2.67 GiB
+step 10100/11379 | loss 0.116 | 126.97 h seen | 207 s audio/s | lr 1.29e-04 | VRAM 2.67 GiB
+step 10150/11379 | loss 0.117 | 127.61 h seen | 207 s audio/s | lr 1.27e-04 | VRAM 2.67 GiB
+step 10200/11379 | loss 0.113 | 128.23 h seen | 206 s audio/s | lr 1.25e-04 | VRAM 2.67 GiB
+step 10250/11379 | loss 0.111 | 128.86 h seen | 206 s audio/s | lr 1.23e-04 | VRAM 2.67 GiB
+step 10300/11379 | loss 0.114 | 129.49 h seen | 206 s audio/s | lr 1.21e-04 | VRAM 2.67 GiB
+step 10350/11379 | loss 0.110 | 130.11 h seen | 207 s audio/s | lr 1.19e-04 | VRAM 2.67 GiB
+step 10400/11379 | loss 0.109 | 130.75 h seen | 208 s audio/s | lr 1.17e-04 | VRAM 2.67 GiB
+step 10450/11379 | loss 0.123 | 131.37 h seen | 208 s audio/s | lr 1.16e-04 | VRAM 2.67 GiB
+step 10500/11379 | loss 0.106 | 132.00 h seen | 207 s audio/s | lr 1.14e-04 | VRAM 2.67 GiB
+step 10550/11379 | loss 0.111 | 132.62 h seen | 206 s audio/s | lr 1.12e-04 | VRAM 2.67 GiB
+step 10600/11379 | loss 0.112 | 133.25 h seen | 207 s audio/s | lr 1.11e-04 | VRAM 2.67 GiB
+step 10650/11379 | loss 0.111 | 133.88 h seen | 207 s audio/s | lr 1.10e-04 | VRAM 2.67 GiB
+step 10700/11379 | loss 0.108 | 134.51 h seen | 206 s audio/s | lr 1.08e-04 | VRAM 2.67 GiB
+step 10750/11379 | loss 0.127 | 135.14 h seen | 207 s audio/s | lr 1.07e-04 | VRAM 2.67 GiB
+step 10800/11379 | loss 0.108 | 135.77 h seen | 207 s audio/s | lr 1.06e-04 | VRAM 2.67 GiB
+step 10850/11379 | loss 0.116 | 136.40 h seen | 207 s audio/s | lr 1.05e-04 | VRAM 2.67 GiB
+step 10900/11379 | loss 0.104 | 137.03 h seen | 207 s audio/s | lr 1.04e-04 | VRAM 2.67 GiB
+step 10950/11379 | loss 0.128 | 137.65 h seen | 207 s audio/s | lr 1.03e-04 | VRAM 2.67 GiB
+step 11000/11379 | loss 0.099 | 138.28 h seen | 208 s audio/s | lr 1.03e-04 | VRAM 2.67 GiB
+== EVAL step 11000 [valid]: CER 0.063 WER 0.223 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल साने के बद खे जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नस्वरतीत शा पर के इ डंग समला हुआ
+== EVAL step 11000 [lahaja]: CER 0.160 WER 0.487 (1000 clips)
+   ref: समय
+   hyp: साम
+   ref: हम
+   hyp: क कहम
+step 11050/11379 | loss 0.110 | 138.91 h seen | 49 s audio/s | lr 1.02e-04 | VRAM 2.67 GiB
+step 11100/11379 | loss 0.105 | 139.54 h seen | 206 s audio/s | lr 1.01e-04 | VRAM 2.67 GiB
+step 11150/11379 | loss 0.104 | 140.17 h seen | 206 s audio/s | lr 1.01e-04 | VRAM 2.67 GiB
+step 11200/11379 | loss 0.136 | 140.81 h seen | 208 s audio/s | lr 1.01e-04 | VRAM 2.67 GiB
+step 11250/11379 | loss 0.102 | 141.44 h seen | 208 s audio/s | lr 1.00e-04 | VRAM 2.67 GiB
+step 11300/11379 | loss 0.102 | 142.07 h seen | 207 s audio/s | lr 1.00e-04 | VRAM 2.67 GiB
+step 11350/11379 | loss 0.126 | 142.69 h seen | 208 s audio/s | lr 1.00e-04 | VRAM 2.67 GiB
+== EVAL step 11379 [valid]: CER 0.063 WER 0.222 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: स्कूल साने के बद खे जाते हैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नास्वरतीत शा पर के इ डंग सम मला हुआ
+== EVAL step 11379 [lahaja]: CER 0.163 WER 0.495 (1000 clips)
+   ref: समय
+   hyp: साम
+   ref: हम
+   hyp: क कहम
+done: 11379 steps, best CER 0.06271322147183736, non-finite losses 0

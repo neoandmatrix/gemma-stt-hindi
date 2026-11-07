@@ -1,0 +1,21 @@
+[   0.0 min] code from /kaggle/input/datasets/YOUR_KAGGLE_USER/gemma-stt-hindi-code
+[   0.6 min] torch 2.11.0+cu130, 2 GPU(s), 4 CPUs
+[   1.5 min] Kathbath / Lahaja / EmbeddingGemma 2 downloaded
+[   5.5 min] data ready at 0.09 h: YODAS 1810 h in 25 files, Kathbath 48 h, 1002 GB disk left
+[   7.0 min] hima labels from /kaggle/input/notebooks/YOUR_KAGGLE_USER/gemma-stt-hindi-ladder/relabel_text.parquet: 303170 clips, 780 h rebuilt in 13 files at 0.12 h
+[   8.6 min] it labels from /kaggle/input/notebooks/YOUR_KAGGLE_USER/gemma-stt-hindi-n6/it_relabel_text.parquet: 387308 clips, 970 h rebuilt in 25 files at 0.14 h
+[   8.9 min] units: 66 chars
+[   8.9 min] plan: each GPU 605 min on 1750 h (Hima 780 + it 970) then Kathbath 45 min (GPU0 top-2, GPU1 top-4)
+[   8.9 min] start all_k2 on GPU 0
+[   8.9 min] start all_k4 on GPU 1
+[ 615.9 min] all_k2 exited with 0
+[ 615.9 min] all_k4 exited with 0
+[ 615.9 min] start all_kb_k2 on GPU 0
+[ 615.9 min] start all_kb_k4 on GPU 1
+[ 662.9 min] all_kb_k2 exited with 0
+[ 662.9 min] all_kb_k4 exited with 0
+[ 663.1 min] SUMMARY all_k2: best valid CER 0.049 WER 0.179 | lahaja CER 0.076 | 1841.534 h seen
+[ 663.1 min] SUMMARY all_k4: best valid CER 0.050 WER 0.185 | lahaja CER 0.081 | 1508.177 h seen
+[ 663.1 min] SUMMARY all_kb_k2: best valid CER 0.033 WER 0.118 | lahaja CER 0.086 | 100.571 h seen
+[ 663.1 min] SUMMARY all_kb_k4: best valid CER 0.032 WER 0.114 | lahaja CER 0.090 | 114.359 h seen
+[ 663.1 min] done

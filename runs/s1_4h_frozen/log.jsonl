@@ -1,0 +1,7 @@
+{"step": 400, "hours_seen": 5.023, "cer": 0.9269, "wer": 0.9977, "n_eval": 1000, "time": "11:48:09"}
+{"step": 800, "hours_seen": 10.053, "cer": 0.8517, "wer": 0.9376, "n_eval": 1000, "time": "11:50:08"}
+{"step": 1200, "hours_seen": 15.064, "cer": 0.8542, "wer": 0.9003, "n_eval": 1000, "time": "11:52:06"}
+{"step": 1600, "hours_seen": 20.095, "cer": 0.8307, "wer": 0.8869, "n_eval": 1000, "time": "11:54:05"}
+{"step": 2000, "hours_seen": 25.115, "cer": 0.8247, "wer": 0.8796, "n_eval": 1000, "time": "11:56:03"}
+{"step": 2400, "hours_seen": 30.136, "cer": 0.719, "wer": 0.6955, "n_eval": 1000, "time": "11:58:02"}
+{"step": 2528, "hours_seen": 31.745, "cer": 0.7169, "wer": 0.6876, "n_eval": 1000, "time": "11:58:53"}

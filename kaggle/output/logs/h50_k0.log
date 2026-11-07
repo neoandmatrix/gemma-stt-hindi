@@ -1,0 +1,28 @@
+train 34395 clips / 47.69 h | eval valid 1000, lahaja 1000 | units 74
+Loading weights:   0%|          | 0/1165 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 172/1165 [00:00<00:00, 1696.22it/s]Loading weights:  29%|██▉       | 342/1165 [00:00<00:00, 1591.55it/s]Loading weights:  43%|████▎     | 502/1165 [00:00<00:00, 1549.19it/s]Loading weights:  56%|█████▋    | 658/1165 [00:00<00:00, 1527.32it/s]Loading weights:  70%|██████▉   | 811/1165 [00:00<00:00, 1412.57it/s]Loading weights:  82%|████████▏ | 954/1165 [00:00<00:00, 1305.98it/s]Loading weights:  93%|█████████▎| 1087/1165 [00:00<00:00, 1132.87it/s]Loading weights: 100%|██████████| 1165/1165 [00:00<00:00, 1326.27it/s]
+11379 steps (3793/epoch), trainable 44M
+step 50/11379 | loss 4.408 | 0.63 h seen | 62 s audio/s | lr 1.63e-04 | VRAM 1.58 GiB
+step 100/11379 | loss 3.609 | 1.25 h seen | 74 s audio/s | lr 3.30e-04 | VRAM 1.58 GiB
+step 150/11379 | loss 3.366 | 1.87 h seen | 106 s audio/s | lr 4.97e-04 | VRAM 1.58 GiB
+step 200/11379 | loss 2.038 | 2.50 h seen | 116 s audio/s | lr 6.63e-04 | VRAM 1.58 GiB
+step 250/11379 | loss 0.991 | 3.13 h seen | 126 s audio/s | lr 8.30e-04 | VRAM 1.58 GiB
+step 300/11379 | loss 0.839 | 3.75 h seen | 128 s audio/s | lr 9.97e-04 | VRAM 1.58 GiB
+step 350/11379 | loss 0.741 | 4.38 h seen | 175 s audio/s | lr 1.00e-03 | VRAM 1.58 GiB
+step 400/11379 | loss 0.717 | 5.01 h seen | 184 s audio/s | lr 1.00e-03 | VRAM 1.58 GiB
+step 450/11379 | loss 0.652 | 5.64 h seen | 164 s audio/s | lr 1.00e-03 | VRAM 1.59 GiB
+step 500/11379 | loss 0.619 | 6.26 h seen | 269 s audio/s | lr 9.99e-04 | VRAM 1.59 GiB
+step 550/11379 | loss 0.601 | 6.90 h seen | 245 s audio/s | lr 9.99e-04 | VRAM 1.59 GiB
+step 600/11379 | loss 0.624 | 7.53 h seen | 211 s audio/s | lr 9.98e-04 | VRAM 1.59 GiB
+step 650/11379 | loss 0.564 | 8.16 h seen | 211 s audio/s | lr 9.98e-04 | VRAM 1.59 GiB
+step 700/11379 | loss 0.569 | 8.79 h seen | 290 s audio/s | lr 9.97e-04 | VRAM 1.59 GiB
+step 750/11379 | loss 0.549 | 9.42 h seen | 263 s audio/s | lr 9.96e-04 | VRAM 1.59 GiB
+step 800/11379 | loss 0.517 | 10.05 h seen | 286 s audio/s | lr 9.96e-04 | VRAM 1.59 GiB
+step 850/11379 | loss 0.555 | 10.68 h seen | 262 s audio/s | lr 9.95e-04 | VRAM 1.59 GiB
+step 900/11379 | loss 0.515 | 11.30 h seen | 238 s audio/s | lr 9.94e-04 | VRAM 1.59 GiB
+step 950/11379 | loss 0.501 | 11.93 h seen | 260 s audio/s | lr 9.92e-04 | VRAM 1.59 GiB
+step 1000/11379 | loss 0.496 | 12.56 h seen | 221 s audio/s | lr 9.91e-04 | VRAM 1.59 GiB
+== EVAL step 1000 [valid]: CER 0.127 WER 0.422 (1000 clips)
+   ref: स्कूल से आने के बाद खेत जाते हैं
+   hyp: इस्कूल जाने के बाद िए जातेहैं
+   ref: नसीरुद्दीन शाह पर किस ढंग से हमला हुआ
+   hyp: नसुरतिीं ोा पर के ढंग समलाहुआ
